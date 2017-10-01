@@ -6,9 +6,8 @@ install:
   - cd _hexo
   - npm install
 script:
-  - chmod +x ../patch.sh
+  - \cp -f ../_patch/index.js node_modules/hexo-prism-plugin/src/index.js
   - chmod +x ../deploy.sh
-  - ../patch.sh > /dev/null
   - npm run build
   - ../deploy.sh > /dev/null
 branches:
