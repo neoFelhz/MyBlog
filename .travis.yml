@@ -5,10 +5,7 @@ node_js:
 install:
   - cd _hexo
   - npm install
-  - npm install hexo-prism-plugin@2.1.0 --save
 script:
-  - eval $(ssh-agent)
-  - ssh-add ${CodingSSH}
   - chmod +x ../patch.sh
   - chmod +x ../deploy.sh
   - ../patch.sh > /dev/null
