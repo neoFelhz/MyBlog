@@ -69,19 +69,14 @@
     <link rel="apple-touch-icon" href="<%= url_for(theme.head.apple_touch_icon) %>">
 
     <!--iOS -->
-    <meta name="apple-mobile-web-app-title" content="Title">
     <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="<%= config.title %>">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="HandheldFriendly" content="True">
     <meta name="MobileOptimized" content="480">
 
     <!-- Add to homescreen for Chrome on Android -->
     <meta name="mobile-web-app-capable" content="yes">
-
-    <!-- Add to homescreen for Safari on iOS -->
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <meta name="apple-mobile-web-app-title" content="<%= config.title %>">
 
     <!-- Site Verification -->
     <% if(theme.head.site_verification.google) { %><meta name="google-site-verification" content="<%= theme.head.site_verification.google %>" /><% } %>
@@ -97,15 +92,7 @@
         <% } %>
     <% } %>
 
-    <!--[if lte IE 9]>
-        <link rel="stylesheet" href="/css/ie-blocker.css">
-
-        <% if(config.language === 'zh-CN') { %>
-            <script src="/js/ie-blocker.zhCN.js"></script>
-        <% } else { %>
-            <script src="/js/ie-blocker.en.js"></script>
-        <% } %>
-    <![endif]-->
+<!--[if lte IE 9]><link rel="stylesheet" href="/css/ie-blocker.css"><% if(config.language === 'zh-CN') { %><script src="/js/ie-blocker.zhCN.js"></script><% } else { %><script src="/js/ie-blocker.en.js"></script><% } %><![endif]-->
 
     <!-- Import CSS -->
     <% if(theme.vendors.materialcdn) { %>

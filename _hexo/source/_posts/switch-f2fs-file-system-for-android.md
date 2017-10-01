@@ -8,7 +8,7 @@ tags:
 categories:
   - 分享镜
 date: 2016-10-01 16:55:00
-updated: 2017-10-01 21:09:00
+updated: 2017-10-01 22:03:00
 thumbnail: https://blog.nfz.yecdn.com/img/thumbnails/switch-f2fs-file-system-for-android.jpg!blogth
 description: F2FS 如今也是折腾 Android 的玩家口中的一个常见词汇。本文主要介绍了 F2FS 是什么、F2FS 的优势和将手机切换到 F2FS 文件系统的方式。
 ---
@@ -40,7 +40,7 @@ F2FS 相对目前主流的 EXT3/4 格式，
 虽然 F2FS 拥有针对零碎小文件有 Buff，但是在面对大文件读写上并没有太大优势（如果部分 ROM 没有调试好有关参数，甚至可能导致出现性能波动）。而且当存储空间快要满的时候，F2FS 的性能也会急剧下降。
 除此以外，F2FS 和 FBE 加密之间存在冲突（这也是小米至今不愿意跟进 F2FS 的原因）。
 
-> 本人的建议是，除非你的存储芯片是 EMMC 或者 UFS2.0，否则不需要使用 F2FS 来增强你的存储 IO 性能。像在 UFS2.1 上，F2FS 对存储 IO 性能的提升并不明显。
+> 本人的建议是，除非你的存储芯片是 EMMC 或者 UFS2.0，否则不需要使用 F2FS 来增强你的存储 IO 性能。在 UFS2.1 上，F2FS 对存储 IO 性能的提升并不明显，而且损失 FBE 加密对于一些用户来说是得不偿失的。
 
 # How to F2FS?
 
@@ -64,12 +64,12 @@ F2FS 相对目前主流的 EXT3/4 格式，
 
 1. 在 TWRP 下，先清除下述分区的内容：cache、data、system。
 2. “高级清除菜单”，勾选 Data ，“修复或转换文件系统”，“转换文件系统”，选择 F2FS 。
-3. 用同样的方法，转换 Cache 分区为 F2FS
+3. 用同样的方法，转换 cache 分区为 F2FS
 4. 对于 system 分区要特别注意，有的 ROM 不支持 system 分区为 F2FS 。所以一旦转换 system 分区以后无法开机，你可以直接退回 TWRP ，把 system 再转换回 ext4 ，重新刷入 ROM 一遍即可。
 
-> 部分 ROM 会在刷机前检测 system 的分区格式，如果不支持会自动把分区转换回 EXT。这是正常现象。
+> 部分 ROM 会在刷机前检测 system 的分区格式，如果不支持会自动把分区转换回 ext4。这是正常现象。
 
-> 注意，部分 ROM 也不支持 cache 分区为 F2FS 格式，表现为转换后开机时间变长、多次重启均无法改善。如果出现这种情况，把 cache 分区转换为 F2FS 即可。
+> 注意，部分 ROM 也不支持 cache 分区为 F2FS 格式，表现为转换后开机时间变长、多次重启均无法改善。如果出现这种情况，把 cache 分区转换为 ext4 即可（刷机后或者清除 davlik/cache 分区后第一次开机需要执行 dex2oat，所以时间会较长，所以需要之后再多次重启作为对照）。
 
 全部转换以后，再用 TWRP 看一下分区是不是已经转换好了。然后就可以享受 F2FS 给你带来的丝滑的感受了。
 
