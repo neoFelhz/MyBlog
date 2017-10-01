@@ -1,0 +1,8 @@
+_hexo/.DS_Store
+_hexo/Thumbs.db
+_hexo/db.json
+_hexo/*.log
+_hexo/node_modules/
+_hexo/public/
+_hexo/.deploy*/
+_hexo/themes/material-old/

@@ -1,0 +1,91 @@
+# Hexo Configuration
+## Docs: https://hexo.io/docs/configuration.html
+## Source: https://github.com/hexojs/hexo/
+
+# Site
+title: neoFelhz's Blog
+subtitle: 拾穗者的故事
+description: neoFelhz, 一枚爱折腾的萌新. 这是我的小博客一枚
+author: neoFelhz
+language: zh-CN
+timezone: Asia/Shanghai
+
+# URL
+## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
+url: https://blog.nfz.moe
+root: /
+permalink: archives/:title.html
+permalink_defaults: :title.html
+
+# Directory
+source_dir: source
+public_dir: public
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+code_dir: code
+i18n_dir: :lang
+skip_render: 
+  - static/**
+
+# Writing
+new_post_name: :title.md # File name of new posts
+default_layout: post
+titlecase: false # Transform title into titlecase
+external_link: true # Open external links in new tab
+filename_case: 0
+render_drafts: false
+post_asset_folder: false
+relative_link: false
+future: true
+highlight:
+  enable: false
+  line_number: false
+  auto_detect: false
+  tab_replace: false
+
+# Category & Tag
+default_category: 自言语
+category_map:
+tag_map:
+
+# Date / Time format
+## Hexo uses Moment.js to parse and display date
+## You can customize the date format as defined in
+## http://momentjs.com/docs/#/displaying/format/
+date_format: YYYY-MM-DD
+time_format: HH:mm:ss
+
+# Pagination
+## Set per_page to 0 to disable pagination
+per_page: 5
+pagination_dir: page
+
+include:
+  - .htaccess
+  - robots.txt
+
+# Extensions
+## Plugins: https://hexo.io/plugins/
+## Themes: https://hexo.io/themes/
+theme: material
+
+search:
+    path: search.xml
+    field: post
+
+# RSS
+feed:
+    type: atom
+    path: atom.xml
+    limit: 30
+    hub:
+    
+# Sitemap
+sitemap:
+  path: sitemap.xml
+
+prism_plugin:
+  mode: 'preprocess'    # realtime/preprocess
+  theme: 'solarizedlight'
+  line_number: true    # default false

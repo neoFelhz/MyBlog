@@ -1,0 +1,24 @@
+language: node_js
+dist: trusty
+node_js:
+  - "8"
+install:
+  - cd _hexo
+  - npm install
+  - npm install hexo-prism-plugin@2.1.0 --save
+script:
+  - eval $(ssh-agent)
+  - ssh-add ${CodingSSH}
+  - chmod +x ../patch.sh
+  - chmod +x ../deploy.sh
+  - ../patch.sh > /dev/null
+  - npm run build
+  - ../deploy.sh > /dev/null
+branches:
+  only:
+    - raw
+cache:
+  directories:
+    - _hexo/node_modules
+notifications:
+  webhooks: https://fathomless-fjord-24024.herokuapp.com/notify
