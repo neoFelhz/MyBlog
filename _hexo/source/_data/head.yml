@@ -5,4 +5,4 @@ PWA:
 NEOCSS:
   <style id="neo_css"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("neo_css","https://blog.nfz.yecdn.com/static/css/neofelhz.css",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";}, false)</script>
 GoogleAnalytics:
-  <script>window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;ga('create','UA-83054354-3','auto');ga('send','pageview');</script><script async src='https://blog.nfz,yecdn.com/static/js/jquery.ag.js'></script>
+  <script>window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;ga('create','UA-83054354-3','auto');ga('send','pageview');</script><script async src='https://blog.nfz.yecdn.com/static/js/jquery.ag.js'></script>
