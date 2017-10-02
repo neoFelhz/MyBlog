@@ -51,7 +51,7 @@ thumbnail: https://blog.nfz.yecdn.com/img/thumbnails/xiaomi-anc-earphone.jpg!blo
 |执行标准|Q / WMSX 004 - 2016|
 |频响范围|20 - 40000Hz|
 |耳机灵敏度|113dB|
-|尺寸|77 * 120 * 30mm|
+|尺寸|77 \* 120 \* 30mm|
 
 
 # 体验
@@ -85,7 +85,7 @@ thumbnail: https://blog.nfz.yecdn.com/img/thumbnails/xiaomi-anc-earphone.jpg!blo
 
 在《You》上，小米降噪耳机的解析度并不差，但是节拍和鼓点的效果不如一加银耳。一加银耳对《You》的表现平平常常，小米降噪耳机的清亮的音色发挥得不错。
 
-### Relentless-WhiteRose [RWBY doujin remix]
+#### Relentless-WhiteRose [RWBY doujin remix]
 
 <div class="aplayer" data-id="443291336" data-server="netease" data-type="song" data-autoplay="false"></div>
 
@@ -111,7 +111,7 @@ thumbnail: https://blog.nfz.yecdn.com/img/thumbnails/xiaomi-anc-earphone.jpg!blo
 
 《残月雪》中阿绫的高音部分中，一加银耳显然相对失真少（但是一加银耳高音性能还是比不上 Nubia 红魔）、声音也偏浑厚一些，但是高音有些失真；小米降噪耳机会颇清亮一些，高音发挥不错。
 
-### 八重回归·伪
+#### 八重回归·伪
 
 <div class="aplayer" data-id="466174320" data-server="netease" data-type="song" data-autoplay="false"></div>
 

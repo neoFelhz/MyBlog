@@ -7,8 +7,9 @@ tags:
   - Markdown
 categories:
   - 分享镜
-date: 2017-9-28 18:17:00
-updated: 2017-9-28 18:17:00
+date: 2017-10-2 14:07:00
+updated: 2017-10-2 14:07:00
+thumbnail: https://blog.nfz.yecdn.com/img/thumbnails/how-to-write-beautiful-github-readme.png!blogth
 ---
 
 README 是一个项目的门面。如果你想让更多人使用你的项目或者给你的贡献 PR、丢 star，你就应该写一个吸引人的 README。
@@ -64,7 +65,6 @@ README 里面一定不能缺少 Badge。Badge 可以形象的把大部分项目�
 - NodeJS Version
 - Travis Build Status
 - Download
-- jsDelivr Hit
 
 ![](https://i.nfz.yecdn.com/i/0000182.png)
 
@@ -72,12 +72,27 @@ README 里面一定不能缺少 Badge。Badge 可以形象的把大部分项目�
 
 # 介绍
 
-接下来就应该是对项目的介绍了。README 应该能解答下面这些问题：
+接下来就应该是对项目的介绍了。README 需要解答下面这些问题：
 
-- 这个开源项目是做什么
+- 这个开源项目是做什么的
 - 项目维护、CI、依赖更新状态
 - 项目可用版本及其他版本、并且应该如何下载它们
 - Demo 或官网地址（如果有）
 - License
 
-这就是对项目的简单介绍。当然啦，至于如何安装、快速开始、文档列表、更新日志之类的肯定也不能少。写的好的 README 应该可以
+这就是对项目的简单介绍。当然，除了需要上述信息能对用户对你的项目有一个简单的印象，你还需要在 README 中写一些关于项目的介绍。
+
+- 如何下载这个项目
+- 项目依赖
+- 安装方式
+- 部署方法（如果项目可以被部署的话）
+- Debug 方法
+- 文档
+
+由于 Material 是 Hexo 的一个主题，所以我们在 README 中只介绍了下载方式，然后我们提供了一个链接通往我们的文档。
+
+-----
+
+基本这就是一个 README 需要包括的内容了。当然，书写项目 README 时候还需要遵守排版规范。这里是 [Neko-Dev 的文案风格 GUIDELINE](https://neko-dev.github.io/GUIDELINE/#/others/copywriter)
+
+
