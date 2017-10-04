@@ -94,7 +94,7 @@ thumbnail: https://s.nfz.yecdn.com/img/thumbnails/xiaomi-anc-earphone.jpg!blogth
 
 #### Leevis
 
-<div class="aplayer" data-title="Leevis" data-author="TomLeevis" data-pic="https://ww3.sinaimg.cn/large/0060lm7Tly1fk67v32kjvj30dw0dwjsp.jpg" data-url="https://fuckalisummer.nfz.yecdn.com/music/Leevis.mp3" data-autoplay="false"></div>
+<div class="aplayer" data-title="Leevis" data-author="TomLeevis" data-pic="https://ww2.sinaimg.cn/large/0060lm7Tly1fk67v32kjvj30dw0dwjsp.jpg" data-url="https://fuckalisummer.nfz.yecdn.com/music/Leevis.mp3" data-autoplay="false"></div>
 
 小米降噪耳机在《Leevis》上的表现得偏尖锐、鼓点表现不够有力，但是解析力还是足够的。Nubia 圈铁耳机音色偏厚重，解析度不错，也不会显得刺耳。
 
@@ -109,7 +109,7 @@ thumbnail: https://s.nfz.yecdn.com/img/thumbnails/xiaomi-anc-earphone.jpg!blogth
 
 #### 残月雪
 
-<div class="aplayer" data-title="残月雪" data-author="乐正绫 / 砖厂浪人" data-pic="http://ww2.sinaimg.cn/large/0060lm7Tly1fk67puddzbj30ni0niwqx.jpg" data-url="https://fuckalisummer.nfz.yecdn.com/music/%E6%AE%8B%E6%9C%88%E9%9B%AA.mp3" data-autoplay="false"></div>
+<div class="aplayer" data-title="残月雪" data-author="乐正绫 / 砖厂浪人" data-pic="https://ww2.sinaimg.cn/large/0060lm7Tly1fk67puddzbj30ni0niwqx.jpg" data-url="https://fuckalisummer.nfz.yecdn.com/music/%E6%AE%8B%E6%9C%88%E9%9B%AA.mp3" data-autoplay="false"></div>
 
 《残月雪》中阿绫的高音部分中，一加银耳显然相对失真少（但是一加银耳高音性能还是比不上 Nubia 红魔）、声音也偏浑厚一些，但是高音有些失真；小米降噪耳机会颇清亮一些，高音发挥不错。
 
@@ -121,7 +121,7 @@ thumbnail: https://s.nfz.yecdn.com/img/thumbnails/xiaomi-anc-earphone.jpg!blogth
 
 #### 将死
 
-<div class="aplayer" data-title="将死" data-author="唯love燕子 / 言和" data-pic="https://ww1.sinaimg.cn/large/0060lm7Tly1fk67th5byxj30hs0hsn67.jpg" data-url="https://fuckalisummer.nfz.yecdn.com/music/%E5%B0%86%E6%AD%BB.mp3" data-autoplay="false"></div>
+<div class="aplayer" data-title="将死" data-author="唯love燕子 / 言和" data-pic="https://ww2.sinaimg.cn/large/0060lm7Tly1fk67th5byxj30hs0hsn67.jpg" data-url="https://fuckalisummer.nfz.yecdn.com/music/%E5%B0%86%E6%AD%BB.mp3" data-autoplay="false"></div>
 
 小米降噪耳机的低频段有些推力不足，在《将死》上显得有些飘，一加银耳的浑厚圆润的音色在低音段发挥优秀。而 Nubia 圈铁耳机表现优秀，解析度和低音表现出色。
 
