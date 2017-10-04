@@ -5,7 +5,7 @@ updated: 2017-02-11 17:52:46
 categories: 自言语
 notag: true
 toc: false
-thumbnail: https://blog.nfz.yecdn.com/img/thumbnails/coolapk-in-my-mind.png!blogth
+thumbnail: https://s.nfz.yecdn.com/img/thumbnails/coolapk-in-my-mind.png!blogth
 ---
 
 <!--more-->

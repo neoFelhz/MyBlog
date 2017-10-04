@@ -9,7 +9,7 @@ categories:
   - 异闻堂
 date: 2016-09-05 01:08:00
 updated: 2017-05-26 23:16:21
-thumbnail: https://blog.nfz.yecdn.com/img/thumbnails/after-the-acquisition-of-supersu-by-ccmt.jpg!blogth
+thumbnail: https://s.nfz.yecdn.com/img/thumbnails/after-the-acquisition-of-supersu-by-ccmt.jpg!blogth
 ---
 
 大概没有比 SuperSU 声誉更好、认可度最高的软件。无论是移动设备、平板电脑，亦或者机顶盒、智能手表，只要是基于 Android 的设备，大家都会想到使用 Chainfire 的 SuperSU 来接管 Android 系统的 Root 权限。

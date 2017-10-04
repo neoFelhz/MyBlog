@@ -9,7 +9,7 @@ categories:
   - 博客栈
 date: 2016-11-29 20:51:00
 updated: 2016-11-29 20:51:00
-thumbnail: https://blog.nfz.yecdn.com/img/thumbnails/hexo-auto-deploy-with-daocloud.png!blogth
+thumbnail: https://s.nfz.yecdn.com/img/thumbnails/hexo-auto-deploy-with-daocloud.png!blogth
 ---
 
 用 Hexo 搭建好博客，使用起来算方便，而且静态页面使用起来很方便，但是每次还要在安装了 Hexo 环境的机器上才能写文章和发布。能不能在任何地方只要新增或修改了 post 就自动生成并部署 hexo 呢？

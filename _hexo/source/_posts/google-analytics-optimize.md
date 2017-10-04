@@ -9,7 +9,7 @@ categories:
   - 实验室
 date: 2017-6-18 13:28:00
 updated: 2017-6-18 13:28:00
-thumbnail: https://blog.nfz.yecdn.com/img/thumbnails/google-analytics-optimize.png
+thumbnail: https://s.nfz.yecdn.com/img/thumbnails/google-analytics-optimize.png
 ---
 
 一般地，网站配置 Google An­a­lyt­ics 的常见方式是在网站前端引用 Google Analytics 的 trackercode，然后获取 `analytics.js` 并开始统计用户行为。

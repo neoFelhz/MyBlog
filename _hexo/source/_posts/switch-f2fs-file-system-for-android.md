@@ -9,7 +9,7 @@ categories:
   - 分享镜
 date: 2016-10-01 16:55:00
 updated: 2017-10-01 22:03:00
-thumbnail: https://blog.nfz.yecdn.com/img/thumbnails/switch-f2fs-file-system-for-android.jpg!blogth
+thumbnail: https://s.nfz.yecdn.com/img/thumbnails/switch-f2fs-file-system-for-android.jpg!blogth
 description: F2FS 如今也是折腾 Android 的玩家口中的一个常见词汇。本文主要介绍了 F2FS 是什么、F2FS 的优势和将手机切换到 F2FS 文件系统的方式。
 ---
 

@@ -1,2 +1,2 @@
 GoogleAnalytics_ServiceWorker:
-  <script>lsloader.load("sw_js","https://blog.nfz.yecdn.com/static/js/sw-reg.js?170910", true)</script>
+  <script>lsloader.load("sw_js","https://s.nfz.yecdn.com/static/js/sw-reg.js?170910", true)</script>

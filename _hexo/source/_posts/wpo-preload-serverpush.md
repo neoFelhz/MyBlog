@@ -10,7 +10,7 @@ categories:
   - 实验室
 date: 2017-6-23 18:17:00
 updated: 2017-9-1 1:10:00
-thumbnail: https://blog.nfz.yecdn.com/img/thumbnails/wpo-preload-serverpush.png!blogth
+thumbnail: https://s.nfz.yecdn.com/img/thumbnails/wpo-preload-serverpush.png!blogth
 ---
 
 相比使用 Prefetch 之类的技术让浏览器提前准备好将来需要的资源，Preload 是让浏览器在加载页面时提前准备好这个页面所需要的资源。

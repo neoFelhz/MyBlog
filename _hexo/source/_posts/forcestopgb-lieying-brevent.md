@@ -9,7 +9,7 @@ tags:
     - 省电
     - 黑域
     - 阻止运行
-thumbnail: https://blog.nfz.yecdn.com/img/thumbnails/forcestopgb-lieying-brevent.png!blogth
+thumbnail: https://s.nfz.yecdn.com/img/thumbnails/forcestopgb-lieying-brevent.png!blogth
 ---
 SuperSU 和阻止运行被收购和商业化无疑是一场巨变。因为 Root 和 Xposed 都是对 Android 安全、稳定运行非常重要的一部分，一旦商业化和作恶，后果不可预料。
 

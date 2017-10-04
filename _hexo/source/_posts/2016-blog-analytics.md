@@ -8,7 +8,7 @@ categories:
   - 博客栈
 date: 2017-7-3 15:25:00
 updated: 2017-7-3 15:25:00
-thumbnail: https://blog.nfz.yecdn.com/img/thumbnails/2016-blog-analytics.png!blogth
+thumbnail: https://s.nfz.yecdn.com/img/thumbnails/2016-blog-analytics.png!blogth
 ---
 
 我的博客到现在快 300 天了，期间我的域名换了两次，博客程序也换了 Hexo。如今我即将使用 Google Analytics 统计访问数据，本文将公布从 2016.11.26 至 2017.07.02 的访问情况。

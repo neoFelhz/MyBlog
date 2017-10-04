@@ -9,7 +9,7 @@ categories:
   - 实验室
 date: 2017-03-23 21:49:10
 updated: 2017-03-23 21:49:10
-thumbnail: https://blog.nfz.yecdn.com/img/thumbnails/add-comment-system-to-hexo.png!blogth
+thumbnail: https://s.nfz.yecdn.com/img/thumbnails/add-comment-system-to-hexo.png!blogth
 ---
 
 >  由于 Hexo 本身已经弃用了 swig 支持，所以本文教程是根据 ejs 语言来写的。如果使用了如 NexT 等基于 swig 的 Hexo 主题，请自行切换。

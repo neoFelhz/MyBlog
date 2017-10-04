@@ -8,7 +8,7 @@ categories:
   - 实验室
 date: 2017-6-06 18:37:00
 updated: 2017-6-06 18:37:00
-thumbnail: https://blog.nfz.yecdn.com/img/thumbnails/hexokit-intro.png!blogth
+thumbnail: https://s.nfz.yecdn.com/img/thumbnails/hexokit-intro.png!blogth
 ---
 
 最早萌生这个想法，是因为 Material 主题的群里有人不会安装 Hexo，亦或者是因为卡在安装过程太久。所以，我决定解决 Hexo 安装过慢的问题，向大众“普及” Hexo。

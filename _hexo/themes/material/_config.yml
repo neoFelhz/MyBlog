@@ -4,9 +4,9 @@
 
 # Head info
 head:
-    favicon: "https://blog.nfz.yecdn.com/favicon.ico"
-    high_res_favicon: "https://blog.nfz.yecdn.com/favicon.png"
-    apple_touch_icon: "https://blog.nfz.yecdn.com/favicon.png"
+    favicon: "https://s.nfz.yecdn.com/favicon.ico"
+    high_res_favicon: "https://s.nfz.yecdn.com/favicon.png"
+    apple_touch_icon: "https://s.nfz.yecdn.com/favicon.png"
     keywords: "neoFelhz, blog, hexo, Android, Web, neo, 博客"
     site_verification:
         google: "o1-IzSRJ5n6Bn_94myQyxyyETTy4HFuJePSeemMT0Tc"
@@ -70,16 +70,16 @@ background:
 
 # Images Settings
 img:
-    logo: "https://blog.nfz.yecdn.com/favicon.png"
-    avatar: "https://blog.nfz.yecdn.com/img/avatar-m.png!t"
-    daily_pic: "https://blog.nfz.yecdn.com/img/d.jpg!t"
-    sidebar_header: "https://blog.nfz.yecdn.com/img/u.png!t"
-    footerico: "https://blog.nfz.yecdn.com/img/footer/footer_ico-"
-    random_thumbnail: "https://blog.nfz.yecdn.com/img/random/material-"
+    logo: "https://s.nfz.yecdn.com/favicon.png"
+    avatar: "https://s.nfz.yecdn.com/img/avatar-m.png!t"
+    daily_pic: "https://s.nfz.yecdn.com/img/d.jpg!t"
+    sidebar_header: "https://s.nfz.yecdn.com/img/u.png!t"
+    footerico: "https://s.nfz.yecdn.com/img/footer/footer_ico-"
+    random_thumbnail: "https://s.nfz.yecdn.com/img/random/material-"
     footer_image:
         upyun_logo:
             link: "https://www.upyun.com/"
-            src: 'https://blog.nfz.yecdn.com/img/upyun_logo.svg'
+            src: 'https://s.nfz.yecdn.com/img/upyun_logo.svg'
 
 # Custom Fonts
 #   family: the font-family which will be used in the theme
@@ -301,7 +301,7 @@ vendors:
 #   The new src will have the base domain you configured below.
 #   For example
 #       materialcdn: https://cdn.jsdelivr.net/npm/hexo-material@1.4.0/source
-    materialcdn: https://blog.nfz.yecdn.com
+    materialcdn: https://s.nfz.yecdn.com
 
 # Third party library
 #   You can load these files from public cdn.

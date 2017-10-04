@@ -9,7 +9,7 @@ categories:
     - 实验室
 date: 2017-04-28 21:16:18
 updated: 2017-04-28 21:16:18
-thumbnail: https://blog.nfz.yecdn.com/img/thumbnails/wpo-data-uri-performance.png!blogth
+thumbnail: https://s.nfz.yecdn.com/img/thumbnails/wpo-data-uri-performance.png!blogth
 ---
 
 业内常会有 Data URI 的利与弊、用与不用的讨论，即使在最有经验的前端开发者眼中，也会形成对 data URI 截然不同的看法。

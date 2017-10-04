@@ -8,7 +8,7 @@ categories:
   - 异闻堂
 date: 2017-5-28 20:40:00
 updated: 2017-5-28 20:40:00
-thumbnail: https://blog.nfz.yecdn.com/img/thumbnails/my-view-of-green-android.png!blogth
+thumbnail: https://s.nfz.yecdn.com/img/thumbnails/my-view-of-green-android.png!blogth
 description: 绿色守护作者冯老师提出的「绿色应用公约」对于拯救国内 Android 生态无疑是具有很大意义的。「绿色应用公约」很可能能局部改变国内毒瘤横行的现状。
 toc: false
 ---

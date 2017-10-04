@@ -13,6 +13,6 @@ Header always set X-Content-Type-Options "nosniff"
 
 <FilesMatch "\.(html|htm)$">
 Header always set Content-Type "text/html; charset=utf-8"
-Header add Link "<https://blog.nfz.yecdn.com>; rel=preconnect; crossorigin"
+Header add Link "<https://s.nfz.yecdn.com>; rel=preconnect; crossorigin"
 </FilesMatch>
 

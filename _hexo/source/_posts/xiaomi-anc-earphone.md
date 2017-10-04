@@ -8,7 +8,7 @@ categories:
   - 分享镜
 date: 2017-9-10 14:46:00
 updated: 2017-9-10 18:16:00
-thumbnail: https://blog.nfz.yecdn.com/img/thumbnails/xiaomi-anc-earphone.jpg!blogth
+thumbnail: https://s.nfz.yecdn.com/img/thumbnails/xiaomi-anc-earphone.jpg!blogth
 ---
 
 <script src="https://cdnjs.cat.net/ajax/libs/aplayer/1.6.0/APlayer.min.js"></script>
@@ -81,19 +81,20 @@ thumbnail: https://blog.nfz.yecdn.com/img/thumbnails/xiaomi-anc-earphone.jpg!blo
 
 #### You
 
-<div class="aplayer" data-id="3932159" data-server="netease" data-type="song" data-autoplay="false"></div>
+<div class="aplayer" data-title="You" data-author="Approaching Nirvana" data-pic="https://ww2.sinaimg.cn/large/0060lm7Tly1fk670i372oj30hs0hsq56.jpg" data-url="https://fuckalisummer.nfz.yecdn.com/music/You.mp3" data-autoplay="false"></div>
 
 在《You》上，小米降噪耳机的解析度并不差，但是节拍和鼓点的效果不如一加银耳。一加银耳对《You》的表现平平常常，小米降噪耳机的清亮的音色发挥得不错。
 
 #### Relentless-WhiteRose [RWBY doujin remix]
 
-<div class="aplayer" data-id="443291336" data-server="netease" data-type="song" data-autoplay="false"></div>
+<div class="aplayer" data-title="Relentless【WhiteRose】[RWBY doujin remix]" data-author="Cre-sc3NT" data-pic="https://ww2.sinaimg.cn/large/0060lm7Tly1fk671v3nj8j30qw0qw0x4.jpg
+" data-url="https://fuckalisummer.nfz.yecdn.com/music/Relentless.mp3" data-autoplay="false"></div>
 
 在《Relentless-WhiteRose》中小米降噪耳机的高音段的缺陷变得明显一些，而一加银耳的表现还是一贯地出色，Nubia 的圈铁表现显然更好，声音让人听得舒服。
 
 #### Leevis
 
-<div class="aplayer" data-id="30854873" data-server="netease" data-type="song" data-autoplay="false"></div>
+<div class="aplayer" data-title="Leevis" data-author="TomLeevis" data-pic="https://ww3.sinaimg.cn/large/0060lm7Tly1fk67v32kjvj30dw0dwjsp.jpg" data-url="https://fuckalisummer.nfz.yecdn.com/music/Leevis.mp3" data-autoplay="false"></div>
 
 小米降噪耳机在《Leevis》上的表现得偏尖锐、鼓点表现不够有力，但是解析力还是足够的。Nubia 圈铁耳机音色偏厚重，解析度不错，也不会显得刺耳。
 
@@ -101,25 +102,26 @@ thumbnail: https://blog.nfz.yecdn.com/img/thumbnails/xiaomi-anc-earphone.jpg!blo
 
 #### 记忆回收
 
-<div class="aplayer" data-id="478000473" data-server="netease" data-type="song" data-autoplay="false"></div>
+<div class="aplayer" data-title="记忆回收" data-author="动点 / 乐正绫" data-pic="https://ww2.sinaimg.cn/large/0060lm7Tly1fk67o950yvj30nb0nbgn0.jpg
+" data-url="https://fuckalisummer.nfz.yecdn.com/music/%E8%AE%B0%E5%BF%86%E5%9B%9E%E6%94%B6.mp3" data-autoplay="false"></div>
 
 可以明显听出，小米降噪耳机明显和一加银耳的音色上有明显的区别，一加银耳的声音更真实和圆润，对于阿绫的声音还原较为真实。小米耳机表现偏飘，而 Nubia 圈铁在人声的表现很不赖。几种耳机各有千秋。
 
 #### 残月雪
 
-<div class="aplayer" data-id="412519083" data-server="netease" data-type="song" data-autoplay="false"></div>
+<div class="aplayer" data-title="残月雪" data-author="乐正绫 / 砖厂浪人" data-pic="http://ww2.sinaimg.cn/large/0060lm7Tly1fk67puddzbj30ni0niwqx.jpg" data-url="https://fuckalisummer.nfz.yecdn.com/music/%E6%AE%8B%E6%9C%88%E9%9B%AA.mp3" data-autoplay="false"></div>
 
 《残月雪》中阿绫的高音部分中，一加银耳显然相对失真少（但是一加银耳高音性能还是比不上 Nubia 红魔）、声音也偏浑厚一些，但是高音有些失真；小米降噪耳机会颇清亮一些，高音发挥不错。
 
 #### 八重回归·伪
 
-<div class="aplayer" data-id="466174320" data-server="netease" data-type="song" data-autoplay="false"></div>
+<div class="aplayer" data-title="八重回归·伪" data-author="DELA / 乐正绫 / 洛天依 / 雨狸" data-pic="https://ww2.sinaimg.cn/large/0060lm7Tly1fk67rcob4lj30jg0jfdje.jpg" data-url="https://fuckalisummer.nfz.yecdn.com/music/%E5%85%AB%E9%87%8D%E5%9B%9E%E5%BD%92.mp3" data-autoplay="false"></div>
 
 在《八重回归》上，小米降噪耳机和一加银耳的表现效果各有千秋。小米降噪耳机声音显得更通透一些；Nubia 圈铁的还原效果更好、更清晰，相比之下小米降噪耳机显得偏飘。
 
 #### 将死
 
-<div class="aplayer" data-id="469338786" data-server="netease" data-type="song" data-autoplay="false"></div>
+<div class="aplayer" data-title="将死" data-author="唯love燕子 / 言和" data-pic="https://ww1.sinaimg.cn/large/0060lm7Tly1fk67th5byxj30hs0hsn67.jpg" data-url="https://fuckalisummer.nfz.yecdn.com/music/%E5%B0%86%E6%AD%BB.mp3" data-autoplay="false"></div>
 
 小米降噪耳机的低频段有些推力不足，在《将死》上显得有些飘，一加银耳的浑厚圆润的音色在低音段发挥优秀。而 Nubia 圈铁耳机表现优秀，解析度和低音表现出色。
 

@@ -9,7 +9,7 @@ categories:
   - 博客栈
 date: 2017-03-04 13:25:00
 updated: 2017-08-25 15:08:00
-thumbnail: https://blog.nfz.yecdn.com/img/thumbnails/hexo-auto-deploy-with-gitlab-ci.png!blogth
+thumbnail: https://s.nfz.yecdn.com/img/thumbnails/hexo-auto-deploy-with-gitlab-ci.png!blogth
 ---
 
 自从使用 Hexo 博客以来，我一直在研究如何实现在任何平台上自由编写和发布 Hexo 博客。<!--more-->之前我在[《Hexo 持续自动化部署》](https://blog.neofelhz.space/archives/hexo-auto-deploy-with-daocloud.html)和[《用 Flow.CI 让 Hexo 持续集成》](https://blog.neofelhz.space/archives/hexo-auto-deploy-with-flow-ci.html)两篇文章中分别讲述了使用 DaoCloud 的 Docker 和 Flow.CI 的 Sass 平台部署持续集成的 Hexo，但是如今 DaoCloud 部署越来越慢，Flow.CI 也已经转向收费；所以我不得不寻找新的替代方案。

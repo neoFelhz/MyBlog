@@ -9,7 +9,7 @@ tags:
   - 博客
   - Disqus
 toc: false
-thumbnail: https://blog.nfz.yecdn.com/img/thumbnails/how-to-show-disqus-comment-in-gfw.png!blogth
+thumbnail: https://s.nfz.yecdn.com/img/thumbnails/how-to-show-disqus-comment-in-gfw.png!blogth
 ---
 
 Disqus 因为一些显而易见的问题，所以无法在一些 公正、平等、有序 的网络环境直接加载。

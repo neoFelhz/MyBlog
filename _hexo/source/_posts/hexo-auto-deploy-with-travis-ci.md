@@ -10,7 +10,7 @@ categories:
 date: 2017-7-31 23:28:00
 updated: 2017-8-20 12:51:00
 description: 鉴于使用 Hexo 部署网站的繁琐性，我将通过本文介绍如何使用 Travis CI 来完成 Hexo 的持续构建。
-thumbnail: https://blog.nfz.yecdn.com/img/thumbnails/hexo-auto-deploy-with-travis-ci.png!blogth
+thumbnail: https://s.nfz.yecdn.com/img/thumbnails/hexo-auto-deploy-with-travis-ci.png!blogth
 ---
 
 我已经写了三篇关于如何使用 CI 持续构建 Hexo 的文章了，现在我将博客迁移到 GitHub 上托管，所以就需要使用 Travis CI 完成持续构建了。

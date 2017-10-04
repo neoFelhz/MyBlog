@@ -9,7 +9,7 @@ categories:
   - 分享镜
 date: 2017-10-2 14:07:00
 updated: 2017-10-2 14:07:00
-thumbnail: https://blog.nfz.yecdn.com/img/thumbnails/how-to-write-beautiful-github-readme.png!blogth
+thumbnail: https://s.nfz.yecdn.com/img/thumbnails/how-to-write-beautiful-github-readme.png!blogth
 ---
 
 README 是一个项目的门面。如果你想让更多人使用你的项目或者给你的贡献 PR、丢 star，你就应该写一个吸引人的 README。

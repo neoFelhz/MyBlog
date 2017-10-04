@@ -10,7 +10,7 @@ categories:
   - 实验室
 date: 2016-08-30 17:19:00
 updated: 2016-08-30 17:19:00
-thumbnail: https://blog.nfz.yecdn.com/img/thumbnails/coding-snapdragon-810-down.jpg!blogth
+thumbnail: https://s.nfz.yecdn.com/img/thumbnails/coding-snapdragon-810-down.jpg!blogth
 ---
 
 > “高通骁龙 810 是我们的一款失败的产品”——高通工程师

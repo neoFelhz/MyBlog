@@ -8,7 +8,7 @@ categories:
     - 实验室
 date: 2017-03-26 13:01:18
 updated: 2017-09-01 12:48:17
-thumbnail: https://blog.nfz.yecdn.com/img/thumbnails/speedy-by-service-worker.png!blogth
+thumbnail: https://s.nfz.yecdn.com/img/thumbnails/speedy-by-service-worker.png!blogth
 ---
 
 静态内容非常适合做缓存来加速页面的访问，除了使用 CDN 实现加速之外，通过客户端也可以实现更好的访问体验。本文就利用 Service Worker 来探讨基于静态资源的加速方案。

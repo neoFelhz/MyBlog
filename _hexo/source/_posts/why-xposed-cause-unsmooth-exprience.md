@@ -9,7 +9,7 @@ tags:
     - Xposed
     - 卡顿
 toc: false
-thumbnail: https://blog.nfz.yecdn.com/img/thumbnails/why-xposed-cause-unsmooth-exprience.png!blogth
+thumbnail: https://s.nfz.yecdn.com/img/thumbnails/why-xposed-cause-unsmooth-exprience.png!blogth
 ---
 
 经常有人说 Xposed 会带来卡顿的操作体验，甚至会引起掉帧等糟糕的后果。所以我再一次阅读完 Xposed  的文档以后，希望能用**通俗的方式**做一个回答。

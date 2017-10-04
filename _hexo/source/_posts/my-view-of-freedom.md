@@ -5,7 +5,7 @@ categories:
 date: 2017-6-05 17:07:00
 updated: 2017-6-08 1:28:00
 notag: true
-thumbnail: https://blog.nfz.yecdn.com/img/thumbnails/my-view-of-freedom.png!blogth
+thumbnail: https://s.nfz.yecdn.com/img/thumbnails/my-view-of-freedom.png!blogth
 toc: false
 ---
 

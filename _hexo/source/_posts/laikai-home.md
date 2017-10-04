@@ -4,7 +4,7 @@ categories:
   - 自言语
 date: 2016-10-02 17:20:00
 updated: 2016-10-02 17:20:00
-thumbnail: https://blog.nfz.yecdn.com/img/thumbnails/laika-home.jpg!blogth
+thumbnail: https://s.nfz.yecdn.com/img/thumbnails/laika-home.jpg!blogth
 toc: false
 ---
 

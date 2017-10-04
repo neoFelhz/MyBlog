@@ -8,7 +8,7 @@ tags:
   - PWA
   - Web
   - Service Worker
-thumbnail: https://blog.nfz.yecdn.com/img/thumbnails/pwa-support-for-my-blog.png!blogth
+thumbnail: https://s.nfz.yecdn.com/img/thumbnails/pwa-support-for-my-blog.png!blogth
 ---
 
 > 对于 native app 和 PWA 的纷争我不想发表太多看法，但是有一件事是确定的——PWA 极大改善了移动端用户的体验。

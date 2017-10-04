@@ -9,7 +9,7 @@ categories:
   - 博客栈
 date: 2016-10-15 20:39:00
 updated: 2017-8-25 15:36:00
-thumbnail: https://blog.nfz.yecdn.com/img/thumbnails/enabled-HSTS.jpg!blogth
+thumbnail: https://s.nfz.yecdn.com/img/thumbnails/enabled-HSTS.jpg!blogth
 ---
 
 HSTS 是 HTTP Strict Transport Security （HTTP 严格安全传输）的缩写。开启了这项设置以后，大部分浏览器会强制性地使用 HTTPS 来请求资源，能够更加有效地保护网站和用户的数据安全。

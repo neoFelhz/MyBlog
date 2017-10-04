@@ -8,7 +8,7 @@ categories:
   - 实验室
 date: 2016-12-20 20:06:42
 updated: 2017-8-16 1:06:17
-thumbnail: https://blog.nfz.yecdn.com/img/thumbnails/android-captive-portal-min.png!blogth
+thumbnail: https://s.nfz.yecdn.com/img/thumbnails/android-captive-portal-min.png!blogth
 ---
 
 从 Android L 开始，原生和 CM 的 ROM 用户就会发现，状态栏的网络信号莫名多了一个感叹号。而且，有的时候明明连着 WIFI 用得好好的，却突然跳到数据流量。

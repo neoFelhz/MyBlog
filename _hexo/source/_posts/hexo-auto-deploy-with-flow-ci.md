@@ -9,7 +9,7 @@ categories:
   - 博客栈
 date: 2016-12-01 13:40:16
 updated: 2016-12-01 13:40:16
-thumbnail: https://blog.nfz.yecdn.com/img/thumbnails/hexo-auto-deploy-with-flow.ci.png
+thumbnail: https://s.nfz.yecdn.com/img/thumbnails/hexo-auto-deploy-with-flow.ci.png
 ---
 
 [Flow.CI](https://Flow.CI) 是一个由著名移动应用公测平台 [Fir.im](https://fir.im) 推出的持续集成（CI）的 saas 服务平台，感觉就是中国的 Travis.CI，作用是把你 Github 或者 Coding 上的代码拉过来，通过容器技术自动化完成代码的构建、测试、交付和部署。整个对 Flow.CI 使用下来的感受就是简洁和美观，配置方便，速度很快。

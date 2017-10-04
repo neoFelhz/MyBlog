@@ -9,7 +9,7 @@ categories:
   - 异闻堂
 date: 2017-02-22 22:39:00
 updated: 2017-04-08 16:41:23
-thumbnail: https://blog.nfz.yecdn.com/img/thumbnails/the-importance-of-using-https.jpg!blogth
+thumbnail: https://s.nfz.yecdn.com/img/thumbnails/the-importance-of-using-https.jpg!blogth
 ---
 
 > HTTPS 早就不是锦上添花的可有可无项，它已经逐渐成为 WEB 服务的标配。——JerryQu

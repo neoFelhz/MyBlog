@@ -3,7 +3,7 @@ title: 关于
 permalink: about.html
 date: 2017-02-25 22:02:46
 notag: true
-thumbnail: https://blog.nfz.yecdn.com/img/thumbnails/story.jpg!blogth
+thumbnail: https://s.nfz.yecdn.com/img/thumbnails/story.jpg!blogth
 description: neoFelhz 和他的博客的故事
 ---
 

@@ -8,7 +8,7 @@ categories:
   - 异闻堂
 date: 2016-08-29 17:21:00
 updated: 2017-03-29 19:54:00
-thumbnail: https://blog.nfz.yecdn.com/img/thumbnails/how-to-choose-customlized-rom-and-stock-ui-min.png!blogth
+thumbnail: https://s.nfz.yecdn.com/img/thumbnails/how-to-choose-customlized-rom-and-stock-ui-min.png!blogth
 toc: false
 ---
 

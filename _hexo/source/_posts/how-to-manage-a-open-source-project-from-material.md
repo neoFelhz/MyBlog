@@ -9,7 +9,7 @@ tags:
     - 项目管理
     - Git
     - GitHub
-thumbnail: https://blog.nfz.yecdn.com/img/thumbnails/learn-how-to-manage-a-open-source-project-from-material.png!blogth
+thumbnail: https://s.nfz.yecdn.com/img/thumbnails/learn-how-to-manage-a-open-source-project-from-material.png!blogth
 ---
 
 我是我博客用的 Material 主题的 `collaborater` 之一。[hexo-theme-material](https://material.viosey.com) 现在在 [Github](https://github.com/viosey/hexo-theme-material) 有 [![GitHub stars](https://img.shields.io/github/stars/viosey/hexo-theme-material.svg?style=flat-square)](https://github.com/viosey/hexo-theme-material/stargazers) 和 [![GitHub contributors](https://img.shields.io/github/contributors/viosey/hexo-theme-material.svg?style=flat-square)](https://github.com/viosey/hexo-theme-material)，即将成为 Hexo 上 star 数前三的主题。

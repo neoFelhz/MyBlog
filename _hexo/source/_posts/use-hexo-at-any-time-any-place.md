@@ -8,7 +8,7 @@ tags:
   - Hexo
   - Git
   - 博客
-thumbnail: https://blog.nfz.yecdn.com/img/thumbnails/use-hexo-at-any-time-any-place.png
+thumbnail: https://s.nfz.yecdn.com/img/thumbnails/use-hexo-at-any-time-any-place.png
 ---
 
 Hexo 是一个使用 Node.js 作为构建引擎的极速、简单且强大的静态博客架构。但 Hexo 只有在安装了 Hexo 的环境上才能运行。于是我设计了一套实现 Hexo 随时随地部署、随时随地发布的方案。

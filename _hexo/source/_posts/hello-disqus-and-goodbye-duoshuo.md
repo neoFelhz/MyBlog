@@ -10,7 +10,7 @@ tags:
 toc: false
 date: 2017-01-26 11:18:34
 updated: 2017-01-26 11:18:34
-thumbnail: https://blog.nfz.yecdn.com/img/thumbnails/hello-disqus-and-goodbye-duoshuo.png!blogth
+thumbnail: https://s.nfz.yecdn.com/img/thumbnails/hello-disqus-and-goodbye-duoshuo.png!blogth
 ---
 
 多说又双叒叕爆炸了！——这是我看到 `多说评论系统故障(9900015)，请联系客服人员` 报错信息时的想法。

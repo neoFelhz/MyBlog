@@ -5,7 +5,7 @@ categories:
 date: 2017-06-25 16:08:08
 updated: 2017-06-25 16:08:08
 notag: true
-thumbnail: https://blog.nfz.yecdn.com/img/thumbnails/the-silence-city.jpg!blogth
+thumbnail: https://s.nfz.yecdn.com/img/thumbnails/the-silence-city.jpg!blogth
 license: 本文转载自 <a rel="nofollow noopener" href="https://www.anotherhome.net/1666" target="_blank">寂静之城 | Anotherhome</a>
 toc: false
 ---

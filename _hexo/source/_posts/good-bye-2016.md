@@ -4,7 +4,7 @@ categories:
   - 自言语
 date: 2016-12-31 21:32:18
 updated: 2016-12-31 21:32:18
-thumbnail: https://blog.nfz.yecdn.com/img/thumbnails/goodbye-2016.jpg!blogth
+thumbnail: https://s.nfz.yecdn.com/img/thumbnails/goodbye-2016.jpg!blogth
 notag: true
 toc: false
 ---

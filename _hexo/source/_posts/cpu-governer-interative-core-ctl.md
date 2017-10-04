@@ -10,7 +10,7 @@ categories:
   - 实验室
 date: 2016-12-23 17:10:00
 updated: 2016-12-23 17:10:00
-thumbnail: https://blog.nfz.yecdn.com/img/thumbnails/cpu-governer-interative-core-ctl.png!blogth
+thumbnail: https://s.nfz.yecdn.com/img/thumbnails/cpu-governer-interative-core-ctl.png!blogth
 ---
 
 `Interative`是目前常用的一种 CPU 调速器，其特点是 CPU 频率是根据负载实现交互式反应。但是与`ondemand`和`conserative`不同的是，`interative`拥有一些不同的参数配置方式。

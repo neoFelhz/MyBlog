@@ -10,7 +10,7 @@ categories:
 date: 2017-8-3 18:06:00
 updated: 2017-8-30 18:06:00
 description: 本文简单介绍了 Google 的 sw-toolbox 和本博客对于 sw-toolbox 的实践，希望对大家使用 sw-toolbox 提供一些参考。
-thumbnail: https://blog.nfz.yecdn.com/img/thumbnails/sw-toolbox-practice.png!blogth
+thumbnail: https://s.nfz.yecdn.com/img/thumbnails/sw-toolbox-practice.png!blogth
 ---
 
 Service Worker 可能是前端的一场革命。Service Worker 开放了众多 API，是 PWA 的基石。同时，Service Worker 开放的操作 Cache Storage 的 API 更是给了一个极其方便的控制浏览器缓存的工具。
@@ -90,7 +90,7 @@ self.toolbox.router.get("/(.*)", self.toolbox.cacheFirst, {
 });
 ```
 
-对于可以缓存的图片部分，全部采用 cacheFirst 的原则，节省用户流量，提升页面二次加载速度。我总共匹配了所有可能遇到的图片的域名，包括 `blog.nfz.yecdn.com` `img1.nfz.yecdn.com` `img2.nfz.yecdn.com` `i.loli.net` 等等。
+对于可以缓存的图片部分，全部采用 cacheFirst 的原则，节省用户流量，提升页面二次加载速度。我总共匹配了所有可能遇到的图片的域名，包括 `s.nfz.yecdn.com` `img1.nfz.yecdn.com` `img2.nfz.yecdn.com` `i.loli.net` 等等。
 
 ------
 
