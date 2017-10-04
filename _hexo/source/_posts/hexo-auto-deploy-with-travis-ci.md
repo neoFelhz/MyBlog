@@ -34,16 +34,16 @@ thumbnail: https://s.nfz.yecdn.com/img/thumbnails/hexo-auto-deploy-with-travis-c
 
 在 GitHub 上点击页面右上角你的头像，进入 `Settings`。
 
-<img src="https://i.nfz.yecdn.com/i/0000151.jpg" alt="0000151.jpg" style="width:50%" />
+<img src="https://bbs-static.nfz.yecdn.com/i/0000151.jpg" alt="0000151.jpg" style="width:50%" />
 
 在左侧菜单的最下面、`Developer Settings` 中最后一项就是 `Personal Access Token`。
 
-<img src="https://i.nfz.yecdn.com/i/0000152.jpg" alt="0000152.jpg" style="width:50%" />
+<img src="https://bbs-static.nfz.yecdn.com/i/0000152.jpg" alt="0000152.jpg" style="width:50%" />
 
 点击 `Generate new token`。GitHub 会让你输入密码，因为这是一个危险的操作。
 你需要给 Token 取一个名字，建议使用一个容易辨别的名字。权限勾选 `repo` 的全部权限，即可生成一个新的 Token。
 
-<img src="https://i.nfz.yecdn.com/i/0000153.jpg" alt="0000153.jpg" style="width:50%" />
+<img src="https://bbs-static.nfz.yecdn.com/i/0000153.jpg" alt="0000153.jpg" style="width:50%" />
 
 确定生成后，Token 将会显示在页面上，强烈建议你将其复制并保存好，同时避免泄露。遗忘 Token 后不能找回，只能重新生成。
 
@@ -52,7 +52,7 @@ thumbnail: https://s.nfz.yecdn.com/img/thumbnails/hexo-auto-deploy-with-travis-c
 打开 [Travis CI](https://travis-ci.com) 并用 GitHub 帐号登陆完成授权，同步一下你 GitHub 帐号下的 repo 到 Travis CI，找到你博客的 repo，把左侧的开关打开。
 找到已经启用自动构建的 repo，并在右侧找到设置按钮，有两处需要设置。首先需要启用 `Build only if .travis.yml is present` 选项，以避免用于 deploy 的分支被构建和、陷入构建循环的问题；在下方的环境变量设置处，我们需要设置几组环境变量，并注意保持 `Display value in build log` 处于禁用状态（默认为禁用），以免构建日志泄露重要信息。
 
-<img src="https://i.nfz.yecdn.com/i/0000155.jpg" alt="0000155.jpg" style="width:50%" />
+<img src="https://bbs-static.nfz.yecdn.com/i/0000155.jpg" alt="0000155.jpg" style="width:50%" />
 
 ```
 GitHubKEY = 上文生成的GitHub Personal Access Token

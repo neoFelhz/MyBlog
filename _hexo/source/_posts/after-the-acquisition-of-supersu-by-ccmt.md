@@ -41,7 +41,7 @@ Chainfire 自己也没有构建，CCMT 就自行发布了新版本；
 更新 logo 动不动就全球、率先、首发、第一…国产软件就这尿性么…
 
 > 连 SuperSU 主页都把自己公司名字拼错了（目前已经修改）
-![0000006.jpg](https://i.nfz.yecdn.com/i/0000006.jpg)
+![0000006.jpg](https://bbs-static.nfz.yecdn.com/i/0000006.jpg)
 
 # 目前似乎一切正常
 
@@ -56,11 +56,11 @@ CCMT 公司是由谁控制的并不重要，如果一家美国公司通过 root 
 
 2017.03.08 更新：CCMT 用 Chainfire 的 Play 帐号发布了一个新的手机管理软件 `AppMaster`，用户体验后说该应用在获取了 root 权限后会自动重启并把自己转成 `priv-app` 应用。
 
-<img src="https://i.nfz.yecdn.com/i/0000069.png" alt="0000069.png" style="width:50%" />
+<img src="https://bbs-static.nfz.yecdn.com/i/0000069.png" alt="0000069.png" style="width:50%" />
 
 有网友认为这并不是 Chainfire 的一贯风格，所以在 xda 上询问 Chainfire，答复如下：
 
-<img src="https://i.nfz.yecdn.com/i/0000070.jpg" alt="0000070.jpg" style="width:50%" />
+<img src="https://bbs-static.nfz.yecdn.com/i/0000070.jpg" alt="0000070.jpg" style="width:50%" />
 
 > SuperSU 被收购以后，也并没有太多兼容性、功能性的改动。我自己已经在用 MagiskSU，以后会发生什么，也只能 Wait and see 罢了。
 
@@ -70,11 +70,11 @@ CCMT 公司是由谁控制的并不重要，如果一家美国公司通过 root 
 
 嗯，SuperSU 最终还是开始作恶了。还是同样老套的“统计和信息采集”的理由，增加不必要的权限，如定位权限。
 
-<img src="https://i.nfz.yecdn.com/i/0000115.png" style="width:50%" alt="0000115.png" />
+<img src="https://bbs-static.nfz.yecdn.com/i/0000115.png" style="width:50%" alt="0000115.png" />
 
 > 在这里我顺便挂一个大言不惭的人。说真的，我还以为他只是跟我过不去呢。要不是在酷安我和他有过过节，我还真的以为他是 CCMT 请来的水军。
 
-<img src="https://i.nfz.yecdn.com/i/0000116.png" style="width:50%" alt="0000116.png" />
+<img src="https://bbs-static.nfz.yecdn.com/i/0000116.png" style="width:50%" alt="0000116.png" />
 
 ----
 

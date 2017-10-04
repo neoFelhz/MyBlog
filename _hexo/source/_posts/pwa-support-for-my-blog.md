@@ -100,13 +100,13 @@ manifest 文件是一个 JSON 格式的文件，位于你项目的根目录。�
 
 在开发者工具中的 `Application` 选项卡左边有 `Manifest` 选项，你可以验证你的 manifest JSON 文件，并提供了 `Add to homescreen`。执行操作，检查控制台日志是否有报错。
 
-![0000085.png](https://i.nfz.yecdn.com/i/0000085.png)
+![0000085.png](https://bbs-static.nfz.yecdn.com/i/0000085.png)
 
 ## 调试 ServiceWorker
 
 在开发者工具中的 `Application` 选项卡左边的 `Application` 选项中你可以轻松地调试你的 ServiceWorker。
 
-![0000086.png](https://i.nfz.yecdn.com/i/0000086.png)
+![0000086.png](https://bbs-static.nfz.yecdn.com/i/0000086.png)
 
 点击 `Offline`，检查你的离线页面是否正常工作。
 
@@ -119,7 +119,7 @@ manifest 文件是一个 JSON 格式的文件，位于你项目的根目录。�
 
 你可以在页面中加入下述 JavaScript，可以让访客首次访问你的页面时弹出 PWA 安装下图所示的提示弹窗。
 
-<img src="https://i.nfz.yecdn.com/i/0000156.jpg" alt="0000156.jpg" style="width:50%" />
+<img src="https://bbs-static.nfz.yecdn.com/i/0000156.jpg" alt="0000156.jpg" style="width:50%" />
 
 ```javascript
 window.addEventListener('beforeinstallprompt', event => {

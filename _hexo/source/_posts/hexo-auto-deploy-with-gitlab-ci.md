@@ -69,7 +69,7 @@ build:
 > 值得一提的是，和 DaoCloud 和 Flow.CI 不同，GitLab CI 可以通过设置 **环境变量** 的方式加载你的 SSH 的私钥，这样子就不需要把你的私钥放在你的项目仓库里，有效防止私钥泄露到第三方。这种环境变量的方式不仅安全，而且灵活。
 > GitLab CI 配置环境变量的位置是 `Setting -> Pipelines -> Secret variables`，如下图所示：
 
-![0000157.png](https://i.nfz.yecdn.com/i/0000157.png)
+![0000157.png](https://bbs-static.nfz.yecdn.com/i/0000157.png)
 
 # 小结
 

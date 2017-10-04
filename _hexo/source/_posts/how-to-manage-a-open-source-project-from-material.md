@@ -39,15 +39,15 @@ Git 的特点是可以记录你文件的往期动态改动记录。对于代码�
 
 > 这是 [typecho-theme-material](https://github.com/viosey/typecho-theme-material) 的 commit 日志记录。
 
-![000067.png](https://i.nfz.yecdn.com/i/0000067.png)
+![000067.png](https://bbs-static.nfz.yecdn.com/i/0000067.png)
 
 > 之前只有 viosey 在开发，所有 commit 日志记录只有版本号，根本无法追溯哪一版本干了什么。后来我接坑了这个主题的开发，所以 commit 日志里简单写了这个提交干了什么。
 
-![000065.png](https://i.nfz.yecdn.com/i/0000065.png)
+![000065.png](https://bbs-static.nfz.yecdn.com/i/0000065.png)
 
 > 到了开发 [hexo-theme-material](https://github.com/viosey/hexo-theme-material) 时，我们从 [`40278ed1292e782cabaaec76b6d88d7a2ce8ac12`](https://github.com/viosey/hexo-theme-material/commit/40278ed1292e782cabaaec76b6d88d7a2ce8ac12) 开始使用了新的 commit 信息规范。这是之后的 commit 记录。
 
-![000066.PNG](https://i.nfz.yecdn.com/i/0000066.png)
+![000066.PNG](https://bbs-static.nfz.yecdn.com/i/0000066.png)
 
 想要知道我们的 commit 信息规范，可以阅读 [hexo-theme-material - Contributing Wiki - Commit message format](https://github.com/viosey/hexo-theme-material/wiki/Commit-message-format)，了解我们每一次 commit 记录的详细含义和规范。
 

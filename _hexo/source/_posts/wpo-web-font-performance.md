@@ -45,7 +45,7 @@ WebFont 的加载是一个令人头疼的事情。除了跨域问题、还有 FO
 
 ### 正常网络环境
 
-![0000170.png](https://i.nfz.yecdn.com/i/0000170.png)
+![0000170.png](https://bbs-static.nfz.yecdn.com/i/0000170.png)
 
 可以看到，只有在 DOMLoaded 触发以后，WebFont 才开始予以加载。WebFont 的优先级在加载中并不高。
 
@@ -55,7 +55,7 @@ WebFont 的加载是一个令人头疼的事情。除了跨域问题、还有 FO
 
 ### 极限网络环境
 
-![0000171.png](https://i.nfz.yecdn.com/i/0000171.png)
+![0000171.png](https://bbs-static.nfz.yecdn.com/i/0000171.png)
 
 在 `Slow 3G` 的极端模式下，如果整个页面全部使用外源字体，那么就会严重影响主要内容的展现。
 
@@ -69,7 +69,7 @@ WebFont 的加载是一个令人头疼的事情。除了跨域问题、还有 FO
 
 ### 正常网络环境
 
-![0000173.png](https://i.nfz.yecdn.com/i/0000173.png)
+![0000173.png](https://bbs-static.nfz.yecdn.com/i/0000173.png)
 
 可能是 Google 字体库的 Buff，GTmetrix 的测试中加载的字体非常快。但是加载字体 css 还需要新建立一个 TCP 连接，所以略微延迟了 DOMLoaded 触发。
 
@@ -77,7 +77,7 @@ WebFont 的加载是一个令人头疼的事情。除了跨域问题、还有 FO
 
 ### 极限网络环境
 
-![0000174.png](https://i.nfz.yecdn.com/i/0000174.png)
+![0000174.png](https://bbs-static.nfz.yecdn.com/i/0000174.png)
 
 在 `Slow 3G` 的极端模式下，Google 字体库不得不额外建立一个 TCP 连接的劣势被放大。
 
@@ -89,7 +89,7 @@ WebFont 的加载是一个令人头疼的事情。除了跨域问题、还有 FO
 
 > 将字体转变为 base64 使用了 [embedded-google-fonts](https://amio.github.io/embedded-google-fonts/) 项目，下同。
 
-![0000175.png](https://i.nfz.yecdn.com/i/0000175.png)
+![0000175.png](https://bbs-static.nfz.yecdn.com/i/0000175.png)
 
 无需新增任何额外请求使这个页面的加载性能表现的很优秀，但是这无疑增大了 HTML 的体积，把字体这种不常更新的资源提升到了和 HTML 这种经常改变的资源同等的缓存地位，于性能是大大不利的。
 而且，将将这么大的字体进行 base64 加码，可能会严重影响页面的渲染性能，因为解码 base64 也要消耗时间。
@@ -116,7 +116,7 @@ WebFont 的加载是一个令人头疼的事情。除了跨域问题、还有 FO
 
 无论文件是否可以缓存，总有特殊环境和辣鸡浏览器不能很好的缓存文件。这个时候将字体 base64 以后直接储存在 localstorage 中可以实现强缓存的效果。
 
-![0000176.png](https://i.nfz.yecdn.com/i/0000176.png)
+![0000176.png](https://bbs-static.nfz.yecdn.com/i/0000176.png)
 
 当二次加载以后，页面的主要拖延成为了从本地的 localstorage 中取出巨大体积的 base64 字体并将其解码、渲染。但是这一切操作均在本地完成，本身不需要发起网络请求，在移动端这种恶劣的网络环境下这不失为一种最佳选择。
 

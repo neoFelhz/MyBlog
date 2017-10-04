@@ -43,7 +43,7 @@ data:[<mime type>][;charset=<charset>][;base64],<encoded data>
 > - 与处理 HTML 时一样，我们需要将收到的 CSS 转换成浏览器能够理解和处理的东西。因此浏览器会重复解析过程，不过是为解析 CSS，而不是 HTML。它需要提取并解析 CSS 文件以构建页面。
 > - 在浏览器构建页面时，如果遇到了<img>标签，它意识到需要该资源来渲染页面，就会把该资源加入到请求队列。但是图片的暂时缺失不影响浏览器渲染其他部分。因此图片不会阻塞关键路径渲染。
 
-![0000089.png](https://i.nfz.yecdn.com/i/0000089.png)
+![0000089.png](https://bbs-static.nfz.yecdn.com/i/0000089.png)
 
 ## Gzip 能缓解这一切？
 
@@ -53,7 +53,7 @@ Gzip 又是什么？
 
 看不懂？我也看不懂。。不过我找到了下面这张图，这样就形象多了。
 
-![0000090.png](https://i.nfz.yecdn.com/i/0000090.png)
+![0000090.png](https://bbs-static.nfz.yecdn.com/i/0000090.png)
 
 HTML 中重复出现大量的 HTML 标签以及类名等，CSS 中重复出现大量的属性，JavaScript 中重复的函数调用等（即使经过混淆）。因此 HTML、CSS、JavaScript 的 Gzip 压缩率都是很高的。但是由于 base64 近乎于乱码的文本是无规律的，所以在 Gzip 中不达不到较高的压缩率。
 

@@ -15,7 +15,7 @@ description: 前端公共库 CDN 服务是指一些服务商将我们常用的�
 
 # BootCDN
 
-![0000144.jpg](https://i.nfz.yecdn.com/i/0000144.jpg)
+![0000144.jpg](https://bbs-static.nfz.yecdn.com/i/0000144.jpg)
 
 - CDN 提供商：又拍云
 - 节点：全球
@@ -28,7 +28,7 @@ BootCDN 是 Bootstrap 中文网和又拍云合作提供的前端公共库服务�
 
 # CDNBee
 
-![0000145.jpg](https://i.nfz.yecdn.com/i/0000145.jpg)
+![0000145.jpg](https://bbs-static.nfz.yecdn.com/i/0000145.jpg)
 
 - CDN 提供商：又拍云
 - 节点：全球
@@ -52,7 +52,7 @@ BaomituCDN 是奇虎 360 最大的前端团队奇舞团维护的前端开源公�
 
 # CSS.NET
 
-![0000142.jpg](https://i.nfz.yecdn.com/i/0000142.jpg)
+![0000142.jpg](https://bbs-static.nfz.yecdn.com/i/0000142.jpg)
 
 - CDN 提供商：Sucuri CDN 和 阿里云 CDN
 - 节点：双节点
@@ -67,7 +67,7 @@ CSS.NET 是土豪 Showfom 提供的公益前端 CDN 服务，每天同步 CDNJS~
 
 # Staticfile
 
-![0000146.jpg](https://i.nfz.yecdn.com/i/0000146.jpg)
+![0000146.jpg](https://bbs-static.nfz.yecdn.com/i/0000146.jpg)
 
 - CDN 提供商：七牛
 - 节点：全球
@@ -91,7 +91,7 @@ Staticfile 是七牛提供的公共 CDN 服务，由掘金提供的技术支持�
 
 # jsDeliver
 
-![0000148.jpg](https://i.nfz.yecdn.com/i/0000148.jpg)
+![0000148.jpg](https://bbs-static.nfz.yecdn.com/i/0000148.jpg)
 
 - CDN 提供商：CloudFlare、MaxCDN、Fastly 和网宿
 - 节点：全球
@@ -104,7 +104,7 @@ Staticfile 是七牛提供的公共 CDN 服务，由掘金提供的技术支持�
 
 # UNPKG
 
-![0000147.jpg](https://i.nfz.yecdn.com/i/0000147.jpg)
+![0000147.jpg](https://bbs-static.nfz.yecdn.com/i/0000147.jpg)
 
 - CDN 提供商：CloudFlare
 - 节点：海外

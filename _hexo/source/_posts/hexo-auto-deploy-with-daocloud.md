@@ -23,7 +23,7 @@ thumbnail: https://s.nfz.yecdn.com/img/thumbnails/hexo-auto-deploy-with-daocloud
 - Daocloud 通过持续集成功能自动生成静态页面
 - 通过 FtpSync 插件上传到我的虚拟空间
 
-![0000029.jpg](https://i.nfz.yecdn.com/i/0000029.jpg)
+![0000029.jpg](https://bbs-static.nfz.yecdn.com/i/0000029.jpg)
 
 # 需要的东西
 
@@ -59,7 +59,7 @@ EXPOSE 4000
  - 开启持续集成
  - 执行环境设在国外（The GirlFriend Wall越来越高了，有时连npm都执行不了）
  
-![0000030.png](https://i.nfz.yecdn.com/i/0000030.png)
+![0000030.png](https://bbs-static.nfz.yecdn.com/i/0000030.png)
 
  - 镜像选择发布在“镜像仓库”中（这个镜像仓库是私有的）
 
@@ -87,11 +87,11 @@ script:
 - 在设置选项卡中设置用`daocloud.yml`定义流程。
 - 镜像构建中两个勾都选上。
 
-![0000032.png](https://i.nfz.yecdn.com/i/0000032.png)
+![0000032.png](https://bbs-static.nfz.yecdn.com/i/0000032.png)
 
 - 触发规则按照如图所示的定义。
 
-![0000031.png](https://i.nfz.yecdn.com/i/0000031.png)
+![0000031.png](https://bbs-static.nfz.yecdn.com/i/0000031.png)
 
 ## 大功告成
 之后写文章发布就是使用`git commit`而不是`hexo g`和`hexo d`了。只要提交以后，持续集成平台就会自动生成静态网页并发布。
@@ -103,7 +103,7 @@ script:
 
 Daocloud如今已经开始用daocloud YAML 2.0定义流程了（1.0版本的YAML于9月份停用了）,然而本篇博客中的依然是YAML 1.0，所以请自行按照网页提示进行YAML升级。
 
-![0000033.png](https://i.nfz.yecdn.com/i/0000033.png)
+![0000033.png](https://bbs-static.nfz.yecdn.com/i/0000033.png)
 
 ## HexoAutoBuildScript项目
 

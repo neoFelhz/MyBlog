@@ -90,7 +90,7 @@ toc: false
 
 昨天下午我在知乎看到妮哩萌萌开发者对[我的回答](https://www.zhihu.com/question/55263859/answer/143661495 )下评论做出「表态」如下：
 
-<img src="https://i.nfz.yecdn.com/i/0000141.png" style="width:50%" alt="0000141.png" />
+<img src="https://bbs-static.nfz.yecdn.com/i/0000141.png" style="width:50%" alt="0000141.png" />
 
 既然作为妮乎的开发者「表态」，我在看到以后很快对「表态」做出「回应」：
 

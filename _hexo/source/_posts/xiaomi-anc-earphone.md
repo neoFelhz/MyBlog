@@ -20,13 +20,13 @@ thumbnail: https://s.nfz.yecdn.com/img/thumbnails/xiaomi-anc-earphone.jpg!blogth
 
 # 开箱图
 
-![0000164.jpg](https://i.nfz.yecdn.com/i/0000164.jpg)
+![0000164.jpg](https://bbs-static.nfz.yecdn.com/i/0000164.jpg)
 
-![0000165.jpg](https://i.nfz.yecdn.com/i/0000165.jpg)
+![0000165.jpg](https://bbs-static.nfz.yecdn.com/i/0000165.jpg)
 
-![0000166.jpg](https://i.nfz.yecdn.com/i/0000166.jpg)
+![0000166.jpg](https://bbs-static.nfz.yecdn.com/i/0000166.jpg)
 
-![0000167.jpg](https://i.nfz.yecdn.com/i/0000167.jpg)
+![0000167.jpg](https://bbs-static.nfz.yecdn.com/i/0000167.jpg)
 
 包装盒左下角的金标很醒目，实际上也就是玄学加成而已。。
 包装盒里的配件包括：

@@ -41,13 +41,13 @@ thumbnail: https://s.nfz.yecdn.com/img/thumbnails/hexo-auto-deploy-with-flow.ci.
 - 新增了项目下的部署公钥（只读）
 
 # 创建并设置工作流
-![0000035.png](https://i.nfz.yecdn.com/i/0000035.png)
+![0000035.png](https://bbs-static.nfz.yecdn.com/i/0000035.png)
 接下来点击“创建你的第一个工作流”，开始设置部署流程。
 由于Hexo的所需环境是Node.js，所以选择Node.js，版本选择最新的6.6.0。
 
 接下来就会进入到工作流定义界面。
 
-![0000036.png](https://i.nfz.yecdn.com/i/0000036.png)
+![0000036.png](https://bbs-static.nfz.yecdn.com/i/0000036.png)
 
 ## 触发器
 触发器自然是选择对所有分支的Push、对所有的Tag进行匹配。当然你也可以设置每天定时运行。
@@ -67,7 +67,7 @@ thumbnail: https://s.nfz.yecdn.com/img/thumbnails/hexo-auto-deploy-with-flow.ci.
 ## 自定义脚本
 在左侧的工作流定义的“安装”与“测试”之间的 + 号，添加一个节点“自定义脚本”
 
-![0000037.png](https://i.nfz.yecdn.com/i/0000037.png)
+![0000037.png](https://bbs-static.nfz.yecdn.com/i/0000037.png)
 
 我们的脚本要执行的有：
 

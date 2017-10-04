@@ -23,7 +23,7 @@ README 是一个项目的门面。如果你想让更多人使用你的项目或�
 > 就像这样 ↓↓
 
 <p align="center">
-<img src="https://i.nfz.yecdn.com/i/0000180.png" alt="Material Render Phone" width="80%">
+<img src="https://bbs-static.nfz.yecdn.com/i/0000180.png" alt="Material Render Phone" width="80%">
 </p>
 
 logo 当然需要居中放置，所以我们不能使用 markdown 语法来添加图片，而应该使用 html。正确做法就像这样：
@@ -52,7 +52,7 @@ logo 当然需要居中放置，所以我们不能使用 markdown 语法来添�
 
 需要注意的是，你的项目 README 中的 Logo 和名称应该要能够完整地出现在手机版 GitHub 页面内。当然，如果 slogan 也在那就更好了。
 
-![0000181.png](https://i.nfz.yecdn.com/i/0000181.png)
+![0000181.png](https://bbs-static.nfz.yecdn.com/i/0000181.png)
 
 # Badge
 
@@ -66,7 +66,7 @@ README 里面一定不能缺少 Badge。Badge 可以形象的把大部分项目�
 - Travis Build Status
 - Download
 
-![](https://i.nfz.yecdn.com/i/0000182.png)
+![](https://bbs-static.nfz.yecdn.com/i/0000182.png)
 
 这里当然要推荐 [Shields.io](https://shields.io)，绝大部分常见的 GitHub Badge 都是用这个网站生成的。
 

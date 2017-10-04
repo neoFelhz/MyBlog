@@ -17,11 +17,11 @@ thumbnail: https://s.nfz.yecdn.com/img/thumbnails/2016-blog-analytics.png!blogth
 
 # PV & UV
 
-![0000131.png](https://i.nfz.yecdn.com/i/0000131.png)
+![0000131.png](https://bbs-static.nfz.yecdn.com/i/0000131.png)
 
 在这过去的 220 天中，我的博客总共迎来了 21557 名访客，总共访问了 86729 次页面。每位访客平均在我的页面上驻留 346s，跳出率平均为 40%。
 
-![0000130.png](https://i.nfz.yecdn.com/i/0000130.png)
+![0000130.png](https://bbs-static.nfz.yecdn.com/i/0000130.png)
 
 上图的几个波峰颇有意思。
 
@@ -34,30 +34,30 @@ thumbnail: https://s.nfz.yecdn.com/img/thumbnails/2016-blog-analytics.png!blogth
 
 # 地理位置与语言
 
-![0000132.png](https://i.nfz.yecdn.com/i/0000132.png)
+![0000132.png](https://bbs-static.nfz.yecdn.com/i/0000132.png)
 
 毫无疑问，我的博客绝大部分访问量都来自中国，主要访客以使用简体中文为主。也就是说，并不是国内用户都会选择使用中文系统。
 
 # 设备类型
 
-![0000133.png](https://i.nfz.yecdn.com/i/0000133.png)
+![0000133.png](https://bbs-static.nfz.yecdn.com/i/0000133.png)
 
 我的博客主要流量还是来自于移动端，主要和我之前主要在酷安推广我的博客有关。
 我的博客通过桌面浏览器访问能获得最好的体验；移动端的优势是方便，可以随时随地阅读，我的博客的主题的响应式设计也对移动端友好；而随着手机屏幕越来越大，平板已经被逐渐边缘化。
 
-![0000134.png](https://i.nfz.yecdn.com/i/0000134.png)
+![0000134.png](https://bbs-static.nfz.yecdn.com/i/0000134.png)
 
 除去 UA 中未知的部分（应该是桌面端的访问），绝大部分访客都使用 Android，小米和一加位居第一和第二。联想到我之前在酷安推广博客，这并不奇怪。排在第三、第四和第五的是三星、苹果和华为。它们也的确是非常热销的品牌。
 
 # 操作系统
 
-![00000135.png](https://i.nfz.yecdn.com/i/0000135.png)
+![00000135.png](https://bbs-static.nfz.yecdn.com/i/0000135.png)
 
 从操作系统来看，使用 Android 的占绝对优势，Windows 紧随其后。但是，使用 Mac 和 Linux 的访客数量加起来只是略多于 iOS 用户。看来我博客的访问依然不是以开发者为主。
 
 # 浏览器
 
-![0000136.png](https://i.nfz.yecdn.com/i/0000136.png)
+![0000136.png](https://bbs-static.nfz.yecdn.com/i/0000136.png)
 
 访问我的博客的浏览者中，使用 Chrome 的占绝大多数。接下来是 QQ 浏览器，我认为应该是使用 QQ 或者微信上的内置 TencentX5 内核的访客。
 Chrome 浏览器性能优异，而且有很多 Web 前沿的特性。我的博客在 Chrome 上有最好的性能表现。
@@ -66,21 +66,21 @@ Chrome 浏览器性能优异，而且有很多 Web 前沿的特性。我的博�
 
 # 流量来源
 
-![0000137.png](https://i.nfz.yecdn.com/i/0000137.png)
+![0000137.png](https://bbs-static.nfz.yecdn.com/i/0000137.png)
 
 我博客的大部分流量来自于我在社交媒体和社区上的推广，所以以直接访问为主。同时，我也欣喜地发现有多个搜索引擎收录了我的博客，并为我的博客带来了访客。
 
-![0000138.png](https://i.nfz.yecdn.com/i/0000138.png)
+![0000138.png](https://bbs-static.nfz.yecdn.com/i/0000138.png)
 
 可以看到，我的博客的引荐流量主要来自我的个人主页、知乎跳转、酷安跳转、Google+ 转发和 Telegram。
 还可以看到，我的友链在流量引荐中占了很大一部分。
 同时，我也注意到一些特定搜索引擎的关键词来的流量，这意味着我的 SEO 做的不错，有被搜索引擎收录。
 
-![0000139.png](https://i.nfz.yecdn.com/i/0000139.png)
+![0000139.png](https://bbs-static.nfz.yecdn.com/i/0000139.png)
 
 同时也需要注意，就是直接访客和引荐访客，网页平均停留时间较长、跳出率明显较低，但是从搜索引擎到来的访客则相反。这符合人们使用搜索引擎的习惯，找到有用的信息便不再继续探索，但同时也说明了我的博客对于这一类访客保活度还不够。
 
-![0000140.png](https://i.nfz.yecdn.com/i/0000140.png)
+![0000140.png](https://bbs-static.nfz.yecdn.com/i/0000140.png)
 
 Google 对原创博客非常友好，使用 HTTPS、提高访问速度、对移动端友好、结构化数据等也很有利于提高在 Google 的权重，最终绝大部分搜索引擎流量来自于 Google 搜索。而百度对原创博客就没有这么友好了，但基于其在国内庞大的市场份额，本博客也有部分的流量来自于百度。不过最近我使用 CloudXNS 分线路解析功能，刻意将百度爬虫的线路解析到 127.0.0.1 来阻止百度爬虫的到访，以后应该不会有从百度到访的人了。
 

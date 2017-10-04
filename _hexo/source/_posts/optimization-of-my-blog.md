@@ -13,7 +13,7 @@ toc: false
 thumbnail: https://s.nfz.yecdn.com/img/thumbnails/optimization-of-my-blog.png
 ---
 
-![0000087.png](https://i.nfz.yecdn.com/i/0000087.png)
+![0000087.png](https://bbs-static.nfz.yecdn.com/i/0000087.png)
 
 我一直在关注我的博客的浏览体验，其中，网站的加载速度对于浏览体验来说是非常重要的。<!--more-->我见过很多菊苣的博客，他们的博客加载速度却很一般（偷笑）我现在也在写一些 WPO 方面的文章，我并不想在写如何做好优化性能的同时，自己的博客却十分缓慢。
 除了 Pageseed、YSlow 常见提到的颇有些老生常谈的一些优化手段以外，我的博客也用了其它一些零散的优化点。我把它们列举在这里。

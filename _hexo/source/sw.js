@@ -18,6 +18,13 @@
             maxEntries: maxEntries
         }
     });
+    self.toolbox.router.get("/img/(.*)", self.toolbox.cacheFirst, {
+        origin: /bbs-static\.nfz\.yecdn\.com/,
+        cache: {
+            name: staticImageCacheName,
+            maxEntries: maxEntries
+        }
+    });
     self.toolbox.router.get("/(.*)", self.toolbox.cacheFirst, {
         origin: /p0\.ssl\.qhmsg\.com/,
         cache: {

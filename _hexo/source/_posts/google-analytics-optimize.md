@@ -149,7 +149,7 @@ window.__beacon_img.src = '/ga.php' + query;
 
 # 异步方案的性能分析
 
-![0000122.png](https://i.nfz.yecdn.com/i/0000122.png)
+![0000122.png](https://bbs-static.nfz.yecdn.com/i/0000122.png)
 
 上图上半部分是使用 Google Analytics 的 Tracker Code 的前端响应速度，下半部分是我使用 PHP 程序异步的 Google Analytics 统计的性能表现。
 

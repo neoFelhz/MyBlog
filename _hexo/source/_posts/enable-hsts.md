@@ -79,4 +79,4 @@ HSTS 必须要在浏览器访问过你的网站一次以后才会生效，如果
 
 本站已经加入了 [HSTS Preload List](https://cs.chromium.org/chromium/src/net/http/transport_security_state_static.json?q=nfz.moe&sq=package:chromium&maxsize=5625974&l=24044)。
 
-![0000150.jpg](https://i.nfz.yecdn.com/i/0000150.jpg)
+![0000150.jpg](https://bbs-static.nfz.yecdn.com/i/0000150.jpg)
