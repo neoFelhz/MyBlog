@@ -4,8 +4,13 @@ permalink: about.html
 date: 2017-02-25 22:02:46
 notag: true
 thumbnail: https://s.nfz.yecdn.com/img/thumbnails/story.jpg!blogth
-description: neoFelhz 和他的博客的故事
+description: neo喵和他的博客的故事
 ---
+
+<script src="https://cdnjs.cat.net/ajax/libs/aplayer/1.6.0/APlayer.min.js"></script>
+<script src="https://api.i-meto.com/music/aplayer.min.js"></script>
+
+<div class="aplayer" data-title="愚弄者x愚弄者" data-author="洛天依 / 桑葚上的猴子" data-pic="https://ww1.sinaimg.cn/large/0060lm7Tly1fk7973eouqj30so0qpjt5.jpg" data-url="https://fuckalisummer.nfz.yecdn.com/music/%E6%84%9A%E5%BC%84%E8%80%85.mp3" data-lrc="https://fuckalisummer.nfz.yecdn.com/music/%E3%80%90%E6%B4%9B%E5%A4%A9%E4%BE%9D%E5%8E%9F%E5%88%9B%E6%9B%B2%E3%80%91%E6%84%9A%E5%BC%84%E8%80%85x%E6%84%9A%E5%BC%84%E8%80%85%20%EF%BC%88%E6%A1%91%E8%91%9A%E4%B8%8A%E7%9A%84%E7%8C%B4%E5%AD%90%EF%BC%89%E3%80%90%E4%B8%80%E5%9B%BEpv%E4%BB%98%E3%80%91.lrc" data-autoplay="false"></div>
 
 ## 我是谁
 
@@ -35,7 +40,7 @@ description: neoFelhz 和他的博客的故事
 
 - E-Mail: [`neofelhz@gmail.com`](mailto:neofelhz@gmail.com)
 > 每天定时多次检查 Inbox
-- QQ: `1E57C6BBE60BF5AE267AD859AA2400FA33BEB9EB`
+- QQ: `getDNS.search('qq.info.nfz.moe','TXT');`
 > You can find me if you want.
 - ~~SinaWeibo: [@neoFelhz](http://weibo.com/neoFelhz)~~
 > ~~本人正在使用第三方客户端，恕不接受任何来自微博的私信~~本人已经不再使用新浪微博。
@@ -48,9 +53,9 @@ description: neoFelhz 和他的博客的故事
 - 与本博客文章有关的问题，建议直接评论，这样可以让更多人看到讨论的内容
 > 你在文章后面评论，Disqus 会把评论内容推送到我的 Inbox
 - 一些技术相关问题建议发邮件；但是暂不接受项目合作
-- 无论通过何种方式咨询，请一次性把话说清楚，否则不予理会
+- 无论通过何种方式咨询，请务必一次性把话说清楚，否则不予理会
 > [提问的智慧](https://gist.github.com/zer4tul/95ffaa741c836dc6ab3b) 
-- 伸手党会直接拉黑，包括把邮件全部丢进 垃圾邮件、禁止该 IP 在我的博客下面评论，等等。
+- 伸手党会直接拉黑，包括把邮件全部丢进垃圾邮件、禁止该 IP 在我的博客下面评论、在 Telegram 上予以屏蔽，等等。
 
 ## 版权说明
 
