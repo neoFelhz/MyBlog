@@ -1,7 +1,14 @@
 RewriteEngine On
 
-RewriteCond %{HTTP_USER_AGENT} (Baidu|Apache|Java) [NC]
-RewriteRule ^(.*)$ - [F]
+RewriteCond %{HTTP_USER_AGENT} (Baidu|Qihoo|Soso|Haosou|Sogou|FeedDemon|AskTbFXTV|AhrefsBot|CrawlDaddy|CoolpadWebkit|Java|ApacheBench|ZmEu|oBot|jaunty|Python|YYSpider|DigExt|HttpClient|MJ12bot|heritrix|EasouSpider|Ezooms) [NC]
+RewriteRule ^(.*)$ https://speedtest.neofelhz.com/speedtests/100tb.bin [L,R=301,NC]
+
+RewriteCond %{HTTP_REFERER} (baidu.com|qihoo|soso|haosou|so.com|360.com|360.cn|sogou|qq.com|toutiao.com) [NC]
+RewriteCond %{HTTP_REFERER} !(nfz|neofelhz) [NC]
+RewriteRule ^(.*)$ https://speedtest.neofelhz.com/speedtests/100tb.bin [L,R=301,NC]
+
+RewriteCond %{REQUEST_URI} (phpmyadmin|wp-login) [NC]
+RewriteRule ^(.*)$ https://speedtest.neofelhz.com/speedtests/100tb.bin [L,R=301,NC]
 
 Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
 
@@ -15,4 +22,3 @@ Header always set X-Content-Type-Options "nosniff"
 Header always set Content-Type "text/html; charset=utf-8"
 Header add Link "<https://s.nfz.yecdn.com>; rel=preconnect; crossorigin"
 </FilesMatch>
-
