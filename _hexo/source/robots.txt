@@ -1,5 +1,13 @@
 User-agent: Baiduspider
-Disallow: /
+Allow: /
+Allow: /archives/
+Allow: /categories/
+Allow: /page/
+Allow: /tags/
+Disallow: /js/
+Disallow: /css/
+Disallow: /fonts/
+Disallow: /img/
 
 User-agent: Sosospider
 Allow: /
@@ -122,4 +130,4 @@ Disallow: /css/
 Disallow: /fonts/
 Disallow: /img/
 
-Sitemap: https://bog.nfz.moe/sitemap.xml
+Sitemap: https://blog.nfz.moe/sitemap.xml

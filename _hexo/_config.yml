@@ -72,13 +72,13 @@ theme: material
 
 search:
     path: search.xml
-    field: post
+    field: all
 
 # RSS
 feed:
     type: atom
     path: atom.xml
-    limit: 30
+    limit: 40
     hub:
     
 # Sitemap
