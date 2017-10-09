@@ -1,13 +1,13 @@
 RewriteEngine On
 
-RewriteCond %{HTTP_USER_AGENT} (Baidu|Qihoo|Soso|Haosou|Sogou|FeedDemon|AskTbFXTV|AhrefsBot|CrawlDaddy|CoolpadWebkit|Java|ApacheBench|ZmEu|oBot|jaunty|Python|YYSpider|DigExt|HttpClient|MJ12bot|heritrix|EasouSpider|Ezooms) [NC]
+RewriteCond %{HTTP_USER_AGENT} (Baidu|Qihoo|Tencent|Soso|Haosou|Sogou|FeedDemon|AskTbFXTV|AhrefsBot|CrawlDaddy|CoolpadWebkit|Java|Apache|Python|ZmEu|oBot|jaunty|Python|YYSpider|DigExt|HttpClient|MJ12bot|heritrix|EasouSpider|Ezooms) [NC]
 RewriteRule ^(.*)$ https://speedtest.neofelhz.com/speedtests/100tb.bin [L,R=301,NC]
 
 RewriteCond %{HTTP_REFERER} (baidu.com|qihoo|soso|haosou|so.com|360.com|360.cn|sogou|qq.com|toutiao.com) [NC]
-RewriteCond %{HTTP_REFERER} !(nfz|neofelhz|Google|Facebook|Twitter|mail|yecdn.com|Instagram|Telegram|u.nu|t.cn|t.me|t.co) [NC]
+RewriteCond %{HTTP_REFERER} !(nfz|neofelhz|Google|Facebook|Twitter|mail|yecdn.com|Instagram|Telegram|u.nu|t.cn|t.me|t.co|Github|LetITFly) [NC]
 RewriteRule ^(.*)$ https://speedtest.neofelhz.com/speedtests/10gb.bin [L,R=301,NC]
 
-RewriteCond %{REQUEST_URI} (phpmyadmin|wp-login) [NC]
+RewriteCond %{REQUEST_URI} (phpmyadmin|wp-login|wp-admin|wp-content|wp-config|xmlrpc|phpinfo) [NC]
 RewriteRule ^(.*)$ https://speedtest.neofelhz.com/speedtests/100tb.bin [L,R=301,NC]
 
 Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
