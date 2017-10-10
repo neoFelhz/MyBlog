@@ -4,7 +4,6 @@ RewriteCond %{HTTP_USER_AGENT} (Baidu|Qihoo|Tencent|Soso|360spider|360bot|Haosou
 RewriteRule ^(.*)$ https://speedtest.neofelhz.com/speedtests/100tb.bin [L,R=301,NC]
 
 RewriteCond %{HTTP_REFERER} (baidu.com|qihoo|soso|haosou|so.com|360.com|360.cn|sogou|qq.com|toutiao.com) [NC]
-RewriteCond %{HTTP_REFERER} !(nfz|neofelhz|Google|Facebook|Twitter|mail|yecdn.com|Instagram|Telegram|u.nu|t.cn|t.me|t.co|Github|LetITFly|blackyau) [NC]
 RewriteRule ^(.*)$ https://imguoguo.com/admin/login.php [L,R=301,NC]
 
 RewriteCond %{REQUEST_URI} (phpmyadmin|wp-login|wp-admin|wp-content|wp-config|xmlrpc|phpinfo) [NC]
