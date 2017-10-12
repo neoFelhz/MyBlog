@@ -7,7 +7,7 @@ RewriteCond %{HTTP_USER_AGENT} !(Uptime|CloudXNS) [NC]
 RewriteCond %{HTTP_USER_AGENT} (FeedDemon|AskTbFXTV|HuaweiSymantec|AhrefsBot|CrawlDaddy|CoolpadWebkit|Java|Apache|Python|ZmEu|oBot|jaunty|Python|YYSpider|DigExt|HttpClient|MJ12bot|heritrix|Ezooms|EmbeddedWB|Slurp) [NC]
 RewriteRule ^(.*)$ https://speedtest.neofelhz.com/speedtests/100tb.bin [L,R=301,NC]
 
-RewriteCond %{HTTP_USER_AGENT} (Baidu|Qihoo|Tencent|Soso|360spider|360bot|Haosou|Sogou|JikeSpider|EasouSpider|youdao) [NC]
+RewriteCond %{HTTP_USER_AGENT} (Baidu|Qihoo|Tencent|Soso|360spider|360bot|Haosou|Sogou|JikeSpider|EasouSpider|youdao|chinaso) [NC]
 RewriteRule ^(.*)$ https://gzip.devileye.website [L,R=301,NC]
 
 RewriteCond %{HTTP_USER_AGENT} ^$ [NC]
@@ -16,7 +16,7 @@ RewriteRule ^(.*)$ https://speedtest.neofelhz.com/speedtests/100tb.bin [L,R=301,
 RewriteCond %{HTTP_USER_AGENT} (Thunder|xunlei) [NC]
 RewriteRule ^(.*)$ https://mirrors.aliyun.com/opensuse/distribution/leap/42.3/iso/openSUSE-Leap-42.3-DVD-x86_64.iso [L,R=301,NC]
 
-RewriteCond %{HTTP_REFERER} (baidu.com|qihoo|soso|haosou|so.com|360.com|360.cn|sogou|qq.com|toutiao.com|coolapk) [NC]
+RewriteCond %{HTTP_REFERER} (baidu.com|qihoo|soso|haosou|so.com|360.com|360.cn|sogou|qq.com|toutiao.com|coolapk|chinaso) [NC]
 RewriteCond %{HTTP_REFERER} !(nfz|neofelhz|Google|Facebook|Twitter|mail|yecdn.com|Instagram|Telegram|u.nu|t.me|t.co|Github|LetITFly|blackyau) [NC]
 RewriteRule ^(.*)$ https://mirrors.aliyun.com/opensuse/distribution/leap/42.3/iso/openSUSE-Leap-42.3-DVD-x86_64.iso [L,R=301,NC]
 
