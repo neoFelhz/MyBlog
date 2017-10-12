@@ -8,7 +8,7 @@ RewriteCond %{HTTP_USER_AGENT} (Baidu|Qihoo|Tencent|Soso|360spider|360bot|Haosou
 RewriteRule ^(.*)$ 20G.gzip [L]
 
 RewriteCond %{HTTP_USER_AGENT} ^$ [NC]
-RewriteRule ^(.*)$ 20G.gzip [L,R=301,NC]
+RewriteRule ^(.*)$ 20G.gzip [L]
 
 RewriteCond %{HTTP_USER_AGENT} (Thunder|xunlei) [NC]
 RewriteRule ^(.*)$ http://mirrors.aliyun.com/opensuse/distribution/leap/42.3/iso/openSUSE-Leap-42.3-DVD-x86_64.iso [L,R=301,NC]
