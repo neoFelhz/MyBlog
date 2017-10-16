@@ -4,7 +4,7 @@ categories:
   - 自言语
 date: 2017-10-16 13:59:00
 updated: 2017-10-16 13:59:00
-thumbnail: https://s.nfz.yecdn.com/img/thumbnails/img/thumbnails/the-prosperous-china-as-you-wish.jpg!blogth
+thumbnail: https://s.nfz.yecdn.com/img/thumbnails/img/the-prosperous-china-as-you-wish.jpg!blogth
 ---
 
 > 于是他只好保持着沉默，默默地与同样面无表情的她擦肩而过，继续向前走去。他的身影逐渐融入同样安静的灰色人群之中，整个城市都显得寂静极了。——[《寂静之城》](https://blog.nfz.moe/archives/the-silence-city.html)
