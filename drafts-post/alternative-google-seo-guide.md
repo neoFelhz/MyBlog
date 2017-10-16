@@ -29,6 +29,8 @@ Google 评判一个网站的权重，最重要的还是网站的访问体验。�
 很多站长都知道，提交 `sitemap.xml` 给搜索引擎是很重要的。但是，你的站点地图也需要 SEO Friendly。
 以我使用的 Hexo 为例。Hexo 官方提供了一个 [`hexo-generator-sitemap`](https://github.com/hexojs/hexo-generator-sitemap)，但是生成的站点地图并没有包括 `priority` `changefreq` 参数。这些参数对爬虫爬取网站和回访来说是很重要的。所以我博客使用的是 `hexo-generator-seo-friendly-sitemap` 插件。
 
+可以看到，启用新的站点地图以后
+
 # 结构化数据
 
 对于搜索结果呈现来说，
