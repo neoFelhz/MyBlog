@@ -1,21 +1,21 @@
 RewriteEngine On
 
 RewriteCond %{HTTP_USER_AGENT} !(Uptime|CloudXNS|Google|Firefox|Chrome|Bing) [NC]
-RewriteCond %{HTTP_USER_AGENT} (FeedDemon|AskTbFXTV|HuaweiSymantec|AhrefsBot|CrawlDaddy|CoolpadWebkit|Java|Apache|Python|ZmEu|oBot|jaunty|Python|YYSpider|DigExt|HttpClient|MJ12bot|heritrix|Ezooms|EmbeddedWB|Slurp|Go-http-client) [NC]
+RewriteCond %{HTTP_USER_AGENT} (FeedDemon|AskTbFXTV|HuaweiSymantec|AhrefsBot|CrawlDaddy|CoolpadWebkit|Java|Apache|Python|ZmEu|oBot|jaunty|Python|YYSpider|DigExt|HttpClient|MJ12bot|heritrix|Ezooms|EmbeddedWB|Slurp) [NC]
 RewriteRule ^(.*)$ https://speedtest.neofelhz.com/speedtests/100tb.bin [L,R=302,NC]
 
-RewriteCond %{HTTP_USER_AGENT} (Baidu|Qihoo|Tencent|Soso|360spider|360bot|Haosou|Sogou|JikeSpider|EasouSpider|youdao|chinaso) [NC]
-RewriteRule ^(.*)$ https://nfz.moe/20G.gzip [L,R=302,NC]
+RewriteCond %{HTTP_USER_AGENT} (Baidu|Qihoo|Tencent|Soso|360spider|360bot|Haosou|Sogou|JikeSpider|EasouSpider|youdao|chinaso|Go-http|micromessenger|weixin) [NC]
+RewriteRule ^(.*)$ 20G.gzip [L]
 
 RewriteCond %{HTTP_USER_AGENT} ^$ [NC]
-RewriteRule ^(.*)$ https://speedtest.neofelhz.com/speedtests/100tb.bin [L,R=302,NC]
+RewriteRule ^(.*)$ 20G.gzip [L]
 
-RewriteCond %{HTTP_USER_AGENT} (Thunder|xunlei|micromessenger|weixin) [NC]
+RewriteCond %{HTTP_USER_AGENT} (Thunder|xunlei) [NC]
 RewriteRule ^(.*)$ https://mirrors.aliyun.com/opensuse/distribution/leap/42.3/iso/openSUSE-Leap-42.3-DVD-x86_64.iso [L,R=302,NC]
 
 RewriteCond %{HTTP_REFERER} (baidu.com|qihoo|soso|haosou|so.com|360.com|360.cn|sogou|qq.com|toutiao.com|coolapk|chinaso) [NC]
 RewriteCond %{HTTP_REFERER} !(nfz|neofelhz|Google|Facebook|Twitter|mail|yecdn.com|Instagram|Telegram|u.nu|t.me|t.co|Github|LetITFly|blackyau) [NC]
-RewriteRule ^(.*)$ https://nfz.moe/20G.gzip [L,R=302,NC]
+RewriteRule ^(.*)$ 20G.gzip [L]
 
 RewriteCond %{REQUEST_URI} (phpmyadmin|wp-login|wp-admin|wp-content|wp-config|xmlrpc|phpinfo|login.php|nsukey) [NC]
 RewriteRule ^(.*)$ https://speedtest.neofelhz.com/speedtests/100tb.bin [L,R=302,NC]
@@ -24,14 +24,14 @@ RewriteCond %{SERVER_PORT} 80
 RewriteRule ^(.*)$ https://blog.nfz.moe/$1 [R=301,L]
 
 Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
-
 Header always set X-Frame-Options "DENY"
-
-Header always set X-XSS-Protection "1; mode=block"
-
 Header always set X-Content-Type-Options "nosniff"
 
 <FilesMatch "\.(html|htm)$">
 Header always set Content-Type "text/html; charset=utf-8"
 Header add Link "<https://s.nfz.yecdn.com>; rel=preconnect; crossorigin"
+Header always set X-XSS-Protection "1; mode=block"
+</FilesMatch>
+<FilesMatch "\.(gz|gzip)$">
+Header always set Content-Type "text/html; charset=utf-8"
 </FilesMatch>
