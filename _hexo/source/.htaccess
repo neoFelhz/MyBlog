@@ -6,18 +6,18 @@ RewriteRule ^(.*)$ https://speedtest.neofelhz.com/speedtests/100tb.bin [L,R=302,
 
 RewriteCond %{HTTP_USER_AGENT} !(Uptime|CloudXNS|Google|Firefox|Chrome|Bing|Edge) [NC]
 RewriteCond %{HTTP_USER_AGENT} (Baidu|Qihoo|Tencent|Soso|360spider|360bot|Haosou|Sogou|JikeSpider|EasouSpider|youdao|chinaso|Go-http|micromessenger|weixin|CoolMarket) [NC]
-RewriteRule ^(.*)$ 20G.gzip [L]
+RewriteRule ^(.*)$ https://mirrors.aliyun.com/opensuse/distribution/leap/42.3/iso/openSUSE-Leap-42.3-DVD-x86_64.iso [L,R=302,NC]
 
 RewriteCond %{HTTP_USER_AGENT} ^$ [NC,OR]
 RewriteCond %{HTTP_USER_AGENT} ^Mozilla/4.0$ [NC]
-RewriteRule ^(.*)$ 20G.gzip [L]
+RewriteRule ^(.*)$ https://speedtest.neofelhz.com/speedtests/100tb.bin [L,R=302,NC]
 
 RewriteCond %{HTTP_USER_AGENT} (Thunder|xunlei) [NC]
 RewriteRule ^(.*)$ https://mirrors.aliyun.com/opensuse/distribution/leap/42.3/iso/openSUSE-Leap-42.3-DVD-x86_64.iso [L,R=302,NC]
 
 RewriteCond %{HTTP_REFERER} (baidu.com|qihoo|soso|haosou|so.com|360.com|360.cn|sogou|qq.com|toutiao.com|coolapk|chinaso) [NC]
 RewriteCond %{HTTP_REFERER} !(nfz|neofelhz|Google|Facebook|Twitter|mail|yecdn.com|Instagram|Telegram|u.nu|t.me|t.co|Github|LetITFly|blackyau) [NC]
-RewriteRule ^(.*)$ 20G.gzip [L]
+RewriteRule ^(.*)$ https://mirrors.aliyun.com/opensuse/distribution/leap/42.3/iso/openSUSE-Leap-42.3-DVD-x86_64.iso [L,R=302,NC]
 
 RewriteCond %{REQUEST_URI} (phpmyadmin|wp-login|wp-admin|wp-content|wp-config|xmlrpc|phpinfo|login.php|nsukey|MyAdmin) [NC]
 RewriteRule ^(.*)$ https://speedtest.neofelhz.com/speedtests/100tb.bin [L,R=302,NC]
