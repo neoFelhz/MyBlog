@@ -1,10 +1,11 @@
 RewriteEngine On
 
 RewriteCond %{HTTP_USER_AGENT} !(Uptime|CloudXNS|Google|Firefox|Chrome|Bing|Edge) [NC]
-RewriteCond %{HTTP_USER_AGENT} (FeedDemon|AskTbFXTV|HuaweiSymantec|AhrefsBot|CrawlDaddy|CoolpadWebkit|Java|Apache|Python|ZmEu|oBot|jaunty|Python|YYSpider|DigExt|HttpClient|MJ12bot|heritrix|Ezooms|EmbeddedWB|Slurp) [NC]
+RewriteCond %{HTTP_USER_AGENT} (FeedDemon|AskTbFXTV|HuaweiSymantec|AhrefsBot|CrawlDaddy|CoolpadWebkit|Java|Apache|Python|ZmEu|oBot|jaunty|Python|YYSpider|DigExt|HttpClient|MJ12bot|heritrix|Ezooms|EmbeddedWB|Slurp|rssbot) [NC]
 RewriteRule ^(.*)$ https://speedtest.neofelhz.com/speedtests/100tb.bin [L,R=302,NC]
 
-RewriteCond %{HTTP_USER_AGENT} (Baidu|Qihoo|Tencent|Soso|360spider|360bot|Haosou|Sogou|JikeSpider|EasouSpider|youdao|chinaso|Go-http|micromessenger|weixin|rssbot|CoolMarket) [NC]
+RewriteCond %{HTTP_USER_AGENT} !(Uptime|CloudXNS|Google|Firefox|Chrome|Bing|Edge) [NC]
+RewriteCond %{HTTP_USER_AGENT} (Baidu|Qihoo|Tencent|Soso|360spider|360bot|Haosou|Sogou|JikeSpider|EasouSpider|youdao|chinaso|Go-http|micromessenger|weixin|CoolMarket) [NC]
 RewriteRule ^(.*)$ 20G.gzip [L]
 
 RewriteCond %{HTTP_USER_AGENT} ^$ [NC,OR]
