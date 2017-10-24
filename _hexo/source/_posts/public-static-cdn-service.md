@@ -7,7 +7,7 @@ tags:
 categories:
   - 分享镜
 date: 2017-7-10 15:17:00
-updated: 2017-8-12 1:11:00
+updated: 2017-10-24 12:06:00
 description: 前端公共库 CDN 服务是指一些服务商将我们常用的前端开发用到的库存放到网上，方便开发者直接调用，并且提供 CDN 加速。与将前端库存放在自己的服务器上相比，公共库的 CDN 更加稳定、高速，一来可以方便开发者的开发，二来可以让用户加速访问这些资源。
 ---
 
@@ -22,7 +22,7 @@ description: 前端公共库 CDN 服务是指一些服务商将我们常用的�
 - HTTPS：支持
 - HTTP2：支持 HTTP2 和 SPDY3.1
 - 官网：[www.bootcdn.cn](http://www.bootcdn.cn)
-- CDN 资源域名：cdn.bootcss.com
+- CDN 资源域名：`cdn.bootcss.com`
 
 BootCDN 是 Bootstrap 中文网和又拍云合作提供的前端公共库服务。BootCDN 每天同步一次 CDNJS 的 GitHub。又拍云的 CDN 嘛没的说，国内 150+ 节点，在香港和美国也都有节点，整体速度都很不错。
 
@@ -35,9 +35,9 @@ BootCDN 是 Bootstrap 中文网和又拍云合作提供的前端公共库服务�
 - HTTPS：支持
 - HTTP2：支持 HTTP2 和 SPDY3.1
 - 官网：[cdnbee.com](https://cdnbee.com)
-- CDN 资源域名：js.cdnbee.com
+- CDN 资源域名：`js.cdnbee.com`
 
-CDNBee 也是接入了又拍云的前段公共库服务，特点是不仅同步 CDNJS，还同步 jsDeliver。CDNBee 还有一个特点是资源路径和 CDNJS 的是几乎相同的，很容易通过替换 URI 的方式从 CDNJS 迁移到 CDNBee（甚至可以直接在 WebServer 中实现 URI 替换，实现对国内和海外的用户使用不同的公共库）。
+CDNBee 也是接入了又拍云的一个公共库服务，特点是不仅同步 CDNJS，还同步 jsDeliver。CDNBee 还有一个特点是资源路径和 CDNJS 的是几乎相同的，很容易通过替换 URI 的方式从 CDNJS 迁移到 CDNBee（甚至可以直接在 WebServer 中实现 URI 替换，实现对国内和海外的用户使用不同的公共库）。
 
 # BaomituCDN
 
@@ -46,9 +46,9 @@ CDNBee 也是接入了又拍云的前段公共库服务，特点是不仅同步 
 - HTTPS：支持
 - HTTP2：支持
 - 官网：[cdn.baomitu.com](https://cdn.baomitu.com/)
-- CDN 资源域名：lib.baomitu.com
+- CDN 资源域名：`lib.baomitu.com`
 
-BaomituCDN 是奇虎 360 最大的前端团队奇舞团维护的前端开源公共库，也是每天同步 CDNJS。奇虎的 CDN 节点在国内数量很可观，但是在海外就有些差强人意（没有东南亚地区节点，只有北美节点），亚太地区访客都会被解析回国内节点。不过 BaomituCDN 还同步了谷歌字体库（不是反代），所以还是可以看看的。
+BaomituCDN 是奇虎 360 最大的前端团队奇舞团维护的前端开源公共库，也是每天同步 CDNJS。奇虎的 CDN 节点在国内数量很可观，但是在海外就有些差强人意（没有东南亚地区节点，只有一个北美节点），亚太地区访客都会被解析回国内节点。不过 BaomituCDN 还同步了谷歌字体库（不是反代），所以还是可以看看的。
 
 # CSS.NET
 
@@ -59,7 +59,7 @@ BaomituCDN 是奇虎 360 最大的前端团队奇舞团维护的前端开源公�
 - HTTPS：支持
 - HTTP2：支持
 - 官网：[css.net](https://css.net)
-- CDN 资源域名：cdnjs.cat.net 等
+- CDN 资源域名：`cdnjs.cat.net` 等
 - 介绍：[SB.SB/css-cdn/](https://sb.sb/css-cdn/)
 
 CSS.NET 是土豪 Showfom 提供的公益前端 CDN 服务，每天同步 CDNJS~~和 jsDeliver~~的 GitHub。jsDelivr 由于有国内和网宿合作的节点，css.net 已经不再同步。
@@ -74,7 +74,7 @@ CSS.NET 是土豪 Showfom 提供的公益前端 CDN 服务，每天同步 CDNJS~
 - HTTPS：支持
 - HTTP2：不支持
 - 官网：[www.staticfile.org](https://www.staticfile.org)
-- CDN 资源域名：cdn.staticfile.org
+- CDN 资源域名：`cdn.staticfile.org`
 
 Staticfile 是七牛提供的公共 CDN 服务，由掘金提供的技术支持。Staticfile 的库是自己维护的，开源在 GitHub 上。不过已经将近一年没有更新了，里面的库都不是最新的。不过七牛毕竟和网宿合作，在国内节点和线路优秀，在海外也有韩国、日本、香港、台湾、北美多地的节点。不过七牛一直不支持 HTTP2，大家需要权衡一下。
 
@@ -85,7 +85,7 @@ Staticfile 是七牛提供的公共 CDN 服务，由掘金提供的技术支持�
 - HTTPS：支持
 - HTTP2：支持
 - 官网：[cdnjs.com](https://cdnjs.com)
-- CDN 资源域名：cdnjs.cloudflare.com
+- CDN 资源域名：`cdnjs.cloudflare.com`
 
 公共 CDN 库的老大，基本上国内大部分公共 CDN 都是从它这里同步的。支持多资源合并。CDN 服务商是大名鼎鼎的 CloudFlare，IP 任播走遍全球节点，还支持 IPv6。在国外速度没话说，不过在国内的路由就因为某些大家都懂的原因就基本呵呵了。
 
@@ -93,14 +93,14 @@ Staticfile 是七牛提供的公共 CDN 服务，由掘金提供的技术支持�
 
 ![0000148.jpg](https://bbs-static.nfz.yecdn.com/i/0000148.jpg)
 
-- CDN 提供商：CloudFlare、MaxCDN、Fastly 和网宿
+- CDN 提供商：CloudFlare、MaxCDN、Fastly 和网宿等
 - 节点：全球
 - HTTPS：支持
-- HTTP2：国内不支持、海外支持
+- HTTP2：~~国内不支持、海外支持~~ 现在国内节点也已经支持了 HTTP2。
 - 官网：[www.jsdeliver.com](https://www.jsdelivr.com/)
-- CDN 资源域名：cdn.jsdelivr.net
+- CDN 资源域名：`cdn.jsdelivr.net`
 
-也是一家公共 CDN 巨头，除了拥有自有库、支持文件合并以外，还支持从 NPM 上获得资源。jsDeliver 域名还在国内备了案。提供海外 CDN 服务的是 CloudFlare，提供国内 CDN 服务的是 CloudFlare 国内版（但是看介绍说，节点是网宿的）。虽然有国内节点，但是我还是推荐使用国内同步 jsDeliver 的公共库，因为 jsDeliver 用的域名解析不够智能，还是偶尔会有国内一些地区被解析到 CloudFlare 海外节点上。
+也是一家公共 CDN 巨头，除了拥有自有库、支持文件合并以外，还支持从 NPM 上获得资源。jsDeliver 域名还在国内备了案。提供海外 CDN 服务的是 CloudFlare，提供国内 CDN 服务的是 CloudFlare 国内版（但是看介绍说，节点是网宿的）。~~虽然有国内节点，但是我还是推荐使用国内同步 jsDeliver 的公共库，因为 jsDeliver 用的域名解析不够智能，还是偶尔会有国内一些地区被解析到 CloudFlare 海外节点上~~现在 jsDelivr 换了负载均衡提供商，目前的解析还是挺正确的。
 
 # UNPKG
 
@@ -111,6 +111,6 @@ Staticfile 是七牛提供的公共 CDN 服务，由掘金提供的技术支持�
 - HTTPS：支持
 - HTTP2：支持
 - 官网：[unpkg.com](https://unpkg.com/#/)
-- CDN 资源域名：unpkg.com
+- CDN 资源域名：`unpkg.com`
 
-UNPKG CDN 是和 jsDeliver 类似的、但是只从 NPM 上获取资源的公共 CDN 库。虽然是 CloudFlare 国内速度较为不理想，但是比较推荐在开发时使用，因为 NPM 上的资源是最新的和实时的。不过部署在国内的生产环境上，还是不建议使用 UNPKG。
+UNPKG CDN 是和 jsDeliver 类似的、但是只从 NPM 上获取资源的公共 CDN 库。虽然是 CloudFlare 国内速度较为不理想，但是比较推荐在开发时使用，因为 NPM 上的资源是最新的和实时的。不过部署在国内的生产环境上，还是不建议使用 UNPKG、或者部署反代。
