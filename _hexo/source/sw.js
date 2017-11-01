@@ -185,6 +185,12 @@
 	self.toolbox.router.get("/(.*)", self.toolbox.networkOnly, {
         origin: /ga\.fir\.im/,
     });
+    self.toolbox.router.get("/(.*)", self.toolbox.networkOnly, {
+        origin: /ga\.yecdn\.com/,
+    });
+    self.toolbox.router.get("/(.*)", self.toolbox.networkOnly, {
+        origin: /api\.nfz\.moe/,
+    });
 
     self.addEventListener("install",
         function(event) {
