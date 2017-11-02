@@ -4,7 +4,7 @@ tags:
   - Web
   - 前端优化
   - 博客
-  - ServiceWorker
+  - Service Worker
 categories:
   - 实验室
 date: 2017-8-3 18:06:00
