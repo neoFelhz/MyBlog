@@ -1,7 +1,7 @@
 RewriteEngine On
 
 RewriteCond %{HTTP_USER_AGENT} !(Uptime|CloudXNS|Google|Firefox|Chrome|Bing|Edge) [NC]
-RewriteCond %{HTTP_USER_AGENT} (FeedDemon|AskTbFXTV|HuaweiSymantec|AhrefsBot|CrawlDaddy|CoolpadWebkit|Java|Apache|Python|ZmEu|oBot|jaunty|YYSpider|DigExt|HttpClient|MJ12bot|heritrix|Ezooms|EmbeddedWB|Slurp|rssbot) [NC]
+RewriteCond %{HTTP_USER_AGENT} (FeedDemon|AskTbFXTV|HuaweiSymantec|AhrefsBot|CrawlDaddy|CoolpadWebkit|Java|Apache|Python|ZmEu|oBot|jaunty|YYSpider|DigExt|HttpClient|MJ12bot|heritrix|Ezooms|EmbeddedWB|Slurp) [NC]
 RewriteRule ^(.*)$ https://speedtest.neofelhz.com/speedtests/100tb.bin [L,R=302,NC]
 
 RewriteCond %{HTTP_USER_AGENT} !(Uptime|CloudXNS|Google|Firefox|Chrome|Bing|Edge) [NC]
