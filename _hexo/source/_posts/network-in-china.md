@@ -11,7 +11,7 @@ categories:
 date: 2017-11-3 18:17:00
 updated: 2017-11-3 18:17:00
 thumbnail: https://s.nfz.yecdn.com/img/thumbnails/network-in-china.png!blogth
-lisence: 本文严格禁止未授权转载
+license: 本文严格禁止未授权转载
 ---
 
 外交部发言人华春莹称“中国的互联网是 **自由、开放、有序** 的”。尽管中国互联网相比世界其他地方的互联网也存在许多相似之处，但还有很大不同。
