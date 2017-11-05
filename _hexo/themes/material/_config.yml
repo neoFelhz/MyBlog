@@ -71,7 +71,7 @@ background:
 # Images Settings
 img:
     logo: "https://s.nfz.yecdn.com/favicon.png"
-    avatar: "https://s.nfz.yecdn.com/img/avatar-m.png!t"
+    avatar: "https://s.nfz.yecdn.com/img/pwa-icons/icon-96x96.png!t"
     daily_pic: "https://s.nfz.yecdn.com/img/d.jpg!t"
     sidebar_header: "https://s.nfz.yecdn.com/img/u.png!t"
     footerico: "https://s.nfz.yecdn.com/img/footer/footer_ico-"
