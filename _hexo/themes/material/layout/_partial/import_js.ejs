@@ -31,7 +31,7 @@
 
     <!-- Local Search-->
     <% if( theme.search.use === 'local' ) { %>
-        <%- partial('_widget/search-local-js') %>
+        <%- jsLsload({path:(theme.vendors.materialcdn + '/js/local-search.js'),key:'search_js'}) %>
 
         <script type="text/ls-javascript" id="search-input-script">
             var inputArea = document.querySelector('#search');
