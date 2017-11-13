@@ -13,7 +13,7 @@ thumbnail: https://s.nfz.yecdn.com/img/thumbnails/chrome-binary-download.png!blo
 
 <!--more-->
 
-在 METO 的 这篇文章 的启发下，我也自己做了一套 Chrome 离线包下载页面，如下图所示：
+在 METO 的 [这篇文章](https://i-meto.com/chrome-binary/) 的启发下，我也自己做了一套 Chrome 离线包下载页面，如下图所示：
 
 ![0000185.png](https://bbs-static.nfz.yecdn.com/i/0000185.png)
 
@@ -28,13 +28,13 @@ Travis CI: [Build Status](https://travis-ci.org/neoFelhz/ChromeChecker)
 
 ![0000186.png](https://bbs-static.nfz.yecdn.com/i/0000186.png)
 
-上面这张图片是 METO 的那篇文章 下面的评论，和这个人和我的邮件交流过程。
+上面这张图片是 [METO 的那篇文章](https://i-meto.com/chrome-binary/) 下面的评论，和这个人和我的邮件交流过程。
 
 为了防止再有伸手党过来烦人，而且我的脾气也非常差。所以，**本文拒绝提供任何技术细节**，任何相关问题的咨询一律一个问题 150RMB，十个问题以上八折，多不退少补。我的 Repo 都以 `Unlicense` 协议开源了，别来烦我了。
 
 -----
 
-简单地说，Chrome 内部的更新检查机制是对 https://tools.google.com 发起一个 POST 请求，Form data 的格式为
+简单地说，Chrome 内部的更新检查机制是对 `https://tools.google.com` 发起一个 POST 请求，Form data 的格式为
 
 ```xml
 <?xml version='1.0' encoding='UTF-8'?>
@@ -47,7 +47,7 @@ Travis CI: [Build Status](https://travis-ci.org/neoFelhz/ChromeChecker)
 </request>
 ```
 
-METO 在他的文章中提供了一系列可以用的 appid ap 参数的值：
+METO 在他的文章中提供了一系列可以用的 `appid` `ap` 参数的值：
 
 ```
 {{appid}}
@@ -108,7 +108,7 @@ Canary
 ```
 
 其中可以看到返回的数据中包括了 6 个可用的 URL、文件名、版本号、文件大小、SHA_256 和 HASH。自行拼凑 URL、正则提取有关数据，就可以很容易实现一个查询器了。
-我开源了的 ChromeChecker 写了几个简单粗暴的脚本，使用 `xmllint` `cat` `grep` `echo` `sed` 这几个简单粗暴的指令就完成了数据提取和合并。
+我开源了的 ChromeChecker 写了几个简单粗暴的脚本，使用 `xmllint` `cat` `grep` `echo` `sed` 这几个指令简单粗暴地就完成了数据提取和合并。
 
 Python 版可以看 [chrome-checker](https://github.com/unnamed5719/chrome-checker)。
 
@@ -116,7 +116,8 @@ Python 版可以看 [chrome-checker](https://github.com/unnamed5719/chrome-check
 
 另外开放一个 “API”，可以拿来造一些轮子。
 
-请求地址：`https://neofelhz.github.io/ChromeChecker` （仅支持 HTTPS，HTTP 请求将会 301 强制跳转 HTTPS）
-请求方式：GET
-请求参数：chrome.xml chrome.min.xml
-请求 `https://neofelhz.github.io/ChromeChecker/chrome.xml` 会返回格式化了的 XML 结果，用于阅读；请求 `https://neofelhz.github.io/ChromeChecker/chrome.xml` 会返回压缩后的 XML 文件。定时查询这一部分丢在 Travis CI 上跑，每 24 小时会查询一次（反正对于 Chrome 离线包查询，不需要 5 分钟就查询一次）。XML 中包括查询的时间、版本号、下载 URL 和文件名、SHA_256 等数据。
+- 请求地址：`https://neofelhz.github.io/ChromeChecker` （仅支持 HTTPS，HTTP 请求将会 301 强制跳转 HTTPS）
+- 请求方式：GET
+- 请求参数：`chrome.xml` `chrome.min.xml`
+
+请求 `https://neofelhz.github.io/ChromeChecker/chrome.xml` 会返回格式化了的 XML 结果，用于阅读；请求 `https://neofelhz.github.io/ChromeChecker/chrome.xml` 会返回压缩后的 XML 文件。定时查询这一部分丢在 Travis CI 上跑，每 24 小时会查询一次（反正对于 Chrome 离线包查询，不需要 5 分钟就查询一次）。XML 中包括整理好的查询的时间、版本号、下载 URL 和文件名、SHA_256 等数据。
