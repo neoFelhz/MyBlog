@@ -26,15 +26,15 @@ toc: false
 
 本人在使用魅族手机(原生 Flyme 系统)的过程中，发现偶尔在一些网站上发布自己的手机截图后，图片会出现奇怪的色块。同时，其他魅族手机发布的截图中，也有类似的情况( **为保护隐私**，本文所有二维码主体部分使用白色色块遮挡，可从四角的二维码定位点判断出这确实是二维码)：
 
-<img src="https://i.loli.net/2017/08/21/599afce9e41d3.png" style="width:50%" alt="0000100.png" />
+<img src="https://bbs-static.nfz.yecdn.com/i/0000100.png" style="width:50%" alt="0000100.png" />
 
 起初我以为这只是图片在上传过程中发生的压缩导致的一些画质损失，但最近在某消息的提醒下发现，实际上图片上的色块并不是画质损失导致的，而是图片实实在在的被打上 **全屏二维码水印**，将以上的图片进行调色处理后，二维码的图像变得明显(*具体的还原步骤在文末*)：
 
-<img src="https://i.loli.net/2017/08/21/599afce9c8f6c.png" style="width:50%" alt="0000101.png" />
+<img src="https://bbs-static.nfz.yecdn.com/i/0000101.png" style="width:50%" alt="0000101.png" />
 
 在**反色**之后，它就是一个实实在在的二维码了：
 
-<img src="https://i.loli.net/2017/08/21/599afce99822b.png" style="width:50%" alt="0000102.png" />
+<img src="https://bbs-static.nfz.yecdn.com/i/0000102.png" style="width:50%" alt="0000102.png" />
 
 识别结果是(为保护隐私，本文字符串中部分字符用「*」号代替)：
 
@@ -58,12 +58,12 @@ toc: false
 
 另外，在探索过程中，在魅族社区找到了这样一张图：
 
-<img src="https://i.loli.net/2017/08/21/599afce9d096e.png" style="width:50%" alt="0000103.png" />
+<img src="https://bbs-static.nfz.yecdn.com/i/0000103.png" style="width:50%" alt="0000103.png" />
 
 
 经过同样的步骤还原之后，得到了这样一张二维码：
 
-<img src="https://i.loli.net/2017/08/21/599afce9c7046.png" style="width:50%" alt="0000104.png" />
+<img src="https://bbs-static.nfz.yecdn.com/i/0000104.png" style="width:50%" alt="0000104.png" />
 
 识别结果是：
 
@@ -84,21 +84,21 @@ toc: false
 - 固件版本：Flyme 6.0.2.0A
 - 这是截至本文发布，魅族官网上 PRO 6 的稳定版固件的最新版本：
 
-![0000105.png](https://i.loli.net/2017/08/21/599afce9b9e17.png)
+![0000105.png](https://bbs-static.nfz.yecdn.com/i/0000105.png)
 
 ----
 
 下面是我在 JuiceSSH 中截图以后得到的图片：
 
-<img src="https://i.loli.net/2017/08/21/599afce9e044a.png" style="width:50%" alt="0000106.png" />
+<img src="https://bbs-static.nfz.yecdn.com/i/0000106.png" style="width:50%" alt="0000106.png" />
 
 在手机上打开，肉眼几乎看不出上面有二维码(但还是能看见)，而在电脑上打开，由于图片解码库不同的缘故，可能导致完全看不到二维码，但是通过在网站上发布，经过服务端的压缩之后，二维码变得明显：
 
-<img src="https://i.loli.net/2017/08/21/599afce9e167e.png" style="width:50%" alt="0000107.png" />
+<img src="https://bbs-static.nfz.yecdn.com/i/0000107.png" style="width:50%" alt="0000107.png" />
 
 同样的步骤将二维码还原：
 
-<img src="https://i.loli.net/2017/08/21/599afce9c7742.png" style="width:50%" alt="0000108.png" />
+<img src="https://bbs-static.nfz.yecdn.com/i/0000108.png" style="width:50%" alt="0000108.png" />
 
 识别的结果：
 
@@ -109,7 +109,7 @@ toc: false
 由于我的手机是双卡，所以 IMSI 也有两个。经过在 OSBuild 这个应用中查看发现，与手机实际的 IMSI 吻合。
 而下面是用 fooView 第三方截图获得的图片，没有任何的二维码水印。
 
-<img src="https://i.loli.net/2017/08/21/599afce9df937.png" style="width:50%" alt="0000109.png" />
+<img src="https://bbs-static.nfz.yecdn.com/i/0000109.png" style="width:50%" alt="0000109.png" />
 
 ### 还原步骤
 
@@ -129,9 +129,9 @@ toc: false
 
 > **以下是目前为止与魅族官方人员对话的截图：**
 
-![0000113.png](https://i.loli.net/2017/08/21/599afd064d14d.png)
-![0000111.png](https://i.loli.net/2017/08/21/599afd065ccd5.png)
-![0000112.png](https://i.loli.net/2017/08/21/599afd064e116.png)
+![0000113.png](https://bbs-static.nfz.yecdn.com/i/0000113.png)
+![0000111.png](https://bbs-static.nfz.yecdn.com/i/0000111.png)
+![0000112.png](https://bbs-static.nfz.yecdn.com/i/0000112.png)
 
 ----
 
@@ -139,6 +139,6 @@ toc: false
 - 与本文章相关的知乎问题在此处：[如何评价魅族为系统截图添加水印的行为？ - 知乎](https://www.zhihu.com/question/59919887)
 - 对于位于知乎专栏和原文简书评论区的疑问，原作者补充了发现此问题的系统版本截图：
 
-<img src="https://i.loli.net/2017/08/21/599afd064ee7a.jpg" style="width:50%" alt="0000110.jpg" />
+<img src="https://bbs-static.nfz.yecdn.com/i/0000110.jpg" style="width:50%" alt="0000110.jpg" />
 
 > 直到 `2017年/5月/16日` 为止此版本依旧是魅族官方最新的稳定版。

@@ -35,7 +35,7 @@ updated: 2017-01-23 23:47:00
 
 以下是受害者酷友“阿光正传”的经历。
 
-<img src="https://p0.ssl.qhmsg.com/t0159884911e5267ba0.png" alt="0000012.min.png" style="width:50%" />
+<img src="https://bbs-static.nfz.yecdn.com/i/0000012.png" alt="0000012.png" style="width:50%" />
 
 # 0x02
 
@@ -52,11 +52,11 @@ updated: 2017-01-23 23:47:00
 - 读取存储
 - **在其它应用上层显示内容**
 
-![0000014.png](https://p0.ssl.qhmsg.com/t01ba8b33f27c3f33a8.png)
+![0000014.png](https://bbs-static.nfz.yecdn.com/i/0000014.png)
 
 > 上图中左边是被打包应用的 `AndroidManiFest.xml`，右边是正常应用的 `AndroidManiFest.xml`。
 
-![0000015.png](https://p0.ssl.qhmsg.com/t01637910869c61b169.png)
+![0000015.png](https://bbs-static.nfz.yecdn.com/i/0000015.png)
 
 除此以外还可以从第二张图里看到，被打包过的应用还额外内置了两个 Activity，分别是 `com.android.append.MainActivity` 和 `com.android.append.MainActivity2`。这两个活动所包含的包名和应用本身的包名 `de.robv.android.xposed.mods.appsettings` 并不相符。所以意味着这两个活动并没有写进打包的应用中，而是额外的独立应用。
 
@@ -64,7 +64,7 @@ updated: 2017-01-23 23:47:00
 
 # 0x03
 
-![0000016.png](https://p0.ssl.qhmsg.com/t015703142c2235d4b5.png)
+![0000016.png](https://bbs-static.nfz.yecdn.com/i/0000016.png)
 
 这张图可以看到被打包的应用还新增了一个 `drawable` 文件夹，内建了一个假的微信悬浮窗和微信登陆界面的样式，可以看到微信的 icon 和登陆的界面图片，以及定义界面的 xml。随便摘录一段给大家看看。
 
@@ -75,13 +75,13 @@ updated: 2017-01-23 23:47:00
 </shape>
 ```
 
-<img src="https://p0.ssl.qhmsg.com/t018e52590d13737e9a.png" alt="0000009.png" style="width:50%" />
+<img src="https://bbs-static.nfz.yecdn.com/i/0000009.png" alt="0000009.png" style="width:50%" />
 
 ![0000018.png](https://p0.ssl.qhmsg.com/t01cedd34ff12d84b79.png)
 
 实际效果像这样（由 DBIn_K 提供截图）：
 
-<img src="https://p0.ssl.qhmsg.com/t01f5daef1a87c16500.png" alt="0000013.min.png" style="width:50%" />
+<img src="https://bbs-static.nfz.yecdn.com/i/0000013.png" alt="0000013.png" style="width:50%" />
 
 > 还有模有样的，不是么？
 
@@ -90,13 +90,13 @@ updated: 2017-01-23 23:47:00
 从那张图里还可以看到，除了一些 smali 的不同，还有一个显著区别就是`asset`目录下竟然内置了一个小的 timesync.apk！
 将它提取出来，用 MT 管理器和安装包解析工具加以分析：
 
-![0000021.png](https://p0.ssl.qhmsg.com/t01260c077679d0f412.png)
+![0000021.png](https://bbs-static.nfz.yecdn.com/i/0000021.png)
 
 > 原来这个就是那个 `com.android.append`。伪装应用名为 SuperSU,，以便瞒天过海。
 
 再对其进行反编译，查看里面到底有什么猫腻。
 
-![0000019.png](https://p0.ssl.qhmsg.com/t01b9d49c27efa8be60.png)
+![0000019.png](https://bbs-static.nfz.yecdn.com/i/0000019.png)
 
 查看里面的文件目录树可以看出来同样是内置了一套悬浮窗的样式，除此以外还内置了一套微信登录界面的样式。
 同样只摘录一段给大家看看就行：
@@ -110,7 +110,9 @@ updated: 2017-01-23 23:47:00
 </RelativeLayout>
 <TextView android:textSize="16.0dip" android:textColor="#ff999999" android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" android:text="请输入支付密码，以验证身份" />
 ```
+
 还有这一段：
+
 ```xml
 <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
     <TextView android:textSize="16.0dip" android:textColor="#ff353535" android:layout_width="69.0dip" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="30.0dip" android:text="账  号" />
@@ -128,8 +130,8 @@ updated: 2017-01-23 23:47:00
 
 实际效果就像这样（由以身试毒的酷友 DBin_K 提供截图）：
 
-<img src="https://p0.ssl.qhmsg.com/t018a883c93490df05d.png" alt="0000010.png" style="width:50%" />
-<img src="https://p0.ssl.qhmsg.com/t01cb2c2bd143f42e74.png" alt="0000005.min.png" style="width:50%" />
+<img src="https://bbs-static.nfz.yecdn.com/i/0000010.png" alt="0000010.png" style="width:50%" />
+<img src="https://bbs-static.nfz.yecdn.com/i/0000005.png" alt="0000005.png" style="width:50%" />
 
 > “解除登录限制”、“微信安全支付”、“请输入支付密码，以验证身份”、“登录遇到问题？” ，真的很具有迷惑性。
 
@@ -139,12 +141,12 @@ updated: 2017-01-23 23:47:00
 
 > 更新：获取这些数据是为了微信跨设备登陆，具体参见 0x07。
 
-![0000020.png](https://p0.ssl.qhmsg.com/t01109f670d2a9cc50f.png)
+![0000020.png](https://bbs-static.nfz.yecdn.com/i/0000020.png)
 
 现在来看他病毒核心的 smali，粗略一看，里面值得我们关注的主要是三个部分，一个是基于 google 开发的解析 json 的框架 gson，一个是由 Jakewharton 开发的 DiskLruCache 缓存，一个是 loopj 开发的 android-async-http。这几个就是用来把获取到的数据传回作者的服务器。
 本来我可以直接一个一个看 smali ，直到找到他数据回源的域名，但是后来 DBin_K 直接开了抓包，拿到了数据回源的地址：`uu636.com/update.aspx`。所以我就没有继续看下去。
 
-<img src="https://p0.ssl.qhmsg.com/t019658d7479f316065.png" alt="0000007.min.png" style="width:50%" />
+<img src="https://bbs-static.nfz.yecdn.com/i/0000007.png" alt="0000007.png" style="width:50%" />
 
 # 0x06
 
@@ -158,8 +160,8 @@ updated: 2017-01-23 23:47:00
 2. 从百度贴吧可以获得的公开的资料得知，这个团伙从今年年初就已经开始作案（几次病毒的行为都高度相似），已经有将近十名受害者被骗。
 3. 查询一下这个域名的 Whois 信息可以看到，这个域名是在国内购买的，同时启用了域名 Whois 隐私保护，所以查不到域名所有人的信息。
 
-![0000025.png](https://p0.ssl.qhmsg.com/t017b12d98429a8f566.png)
-![0000026.png](https://p0.ssl.qhmsg.com/t01a7f1983c05285152.png)
+![0000025.png](https://bbs-static.nfz.yecdn.com/i/0000025.png)
+![0000026.png](https://bbs-static.nfz.yecdn.com/i/0000026.png)
 
 根据全网 ping 的响应速度，的确应该是靠近国内地区的服务器。但是又找不到备案信息，所以这个服务器应该是在香港（我用我朋友在香港沙田机房的 VPS ping 了一下发现耗时是 0ms，结果不言而喻）
 5. 在酷友 [llllllllllll666](http://www.coolapk.com/u/554126) 和酷安的开发组成员 [liubaoyua](http://www.coolapk.com/u/346976) 对病毒的逆向下获得了 java 部分。详见 0x08。
@@ -170,19 +172,19 @@ updated: 2017-01-23 23:47:00
 
 - 劫持微信快捷方式
 
-![0000043.png](https://p0.ssl.qhmsg.com/t01523dd061f0de1d1c.png)
+![0000043.png](https://bbs-static.nfz.yecdn.com/i/0000043.png)
 
 代码如图，当获取到 root 权限以后木马核心会开始寻找启动器下的微信的快捷方式劫持到自己的桌面活动 `com.android.append.Launcher.Activity`，这样受害者点击微信你图标也会触发打开伪造的登陆界面。
 
 - 卸载微信
 
-![0000044.jpg](https://p0.ssl.qhmsg.com/t011ca4ad52b42e5395.jpg)
+![0000044.jpg](https://bbs-static.nfz.yecdn.com/i/0000044.jpg)
 
 这个就简单了，仅仅只是卸载微信而已。
 
 - 一键变砖
 
-![0000042.png](https://p0.ssl.qhmsg.com/t014d63e46069ea4d0e.png)
+![0000042.png](https://bbs-static.nfz.yecdn.com/i/0000042.png)
 
 这个是挂载 system 分区，然后删除 `system/framework/` 文件夹，也就是删除了系统框架，可以导致手机变砖。
 
