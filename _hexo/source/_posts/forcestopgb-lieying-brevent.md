@@ -41,8 +41,8 @@ SuperSU 和阻止运行被收购和商业化无疑是一场巨变。因为 Root 
 
 > 其实大家想一下要定位权限有什么用？如果真的只是为了统计，为什么并没有在 `AndroidManiFest.xml` 内发现定义的其它统计有关的组件？而且，在酷友的强烈要求下，2.3.7 立刻就去掉了百度定位 sdk，说明这个组件对于应用运行是毫无影响的。
 
-<img src="https://i.loli.net/2017/10/08/59d9d855da8df.png" alt="0000056.png" style="width:50%" />
-<img src="https://i.loli.net/2017/10/08/59d9d855d96b7.png" alt="0000055.png" style="width:50%" />
+<img src="https://0d077ef9e74d8.cdn.sohucs.com/qB1qZGF_png" alt="0000056.png" style="width:50%" />
+<img src="https://0d077ef9e74d8.cdn.sohucs.com/qB1r2WW_png" alt="0000055.png" style="width:50%" />
 
 > 2.3.6 版本还可以在手机乐园上下载到，大家可以自取。
 
@@ -52,12 +52,12 @@ SuperSU 和阻止运行被收购和商业化无疑是一场巨变。因为 Root 
 
 > 这是酷友 tworc 的声明
 
-<img src="https://i.loli.net/2017/10/08/59d9d855de0a0.png" alt="0000063.png" style="width:50%" />
-<img src="https://p0.ssl.qhmsg.com/t01df8a9cef7e204fd3.jpg" alt="0000051.jpg" style="width:75%" />
+<img src="https://0d077ef9e74d8.cdn.sohucs.com/qB1qVOI_png" alt="0000063.png" style="width:50%" />
+<img src="https://0d077ef9e74d8.cdn.sohucs.com/qB1qNLK_jpg" alt="0000051.jpg" style="width:75%" />
 
 最后这件事情是这样不了了之的。
 
-<img src="https://i.loli.net/2017/10/08/59d9d855d7f85.png" alt="0000064.png" style="width:50%" />
+<img src="https://0d077ef9e74d8.cdn.sohucs.com/qB1r7TK_png" alt="0000064.png" style="width:50%" />
 
 > 具体情况可以看下面
 
@@ -65,7 +65,7 @@ SuperSU 和阻止运行被收购和商业化无疑是一场巨变。因为 Root 
 
 这项功能当时 ksana2016 是这么介绍的：
 
-<img src="https://i.loli.net/2017/10/08/59d9d855dbacf.png" alt="0000053.png" style="width:50%" />
+<img src="https://0d077ef9e74d8.cdn.sohucs.com/qB1rc1f_png" alt="0000053.png" style="width:50%" />
 
 这项功能当时在酷安被大部分酷友抨击和反对。并且该功能在 2.4.0 版本终于推出以后，我们可以发现，所谓去除开屏广告不过是使广告不显示，实际上带有启动屏的广告应用启动时会有 2s 的黑屏。
 
@@ -85,18 +85,18 @@ SuperSU 和阻止运行被收购和商业化无疑是一场巨变。因为 Root 
 
 ### 面对盗用 UI 行为的态度
 
-<img src="https://i.loli.net/2017/10/08/59d9d855dee2a.png" alt="0000057.png" style="width:50%" />
-<img src="https://i.loli.net/2017/10/08/59d9d855dc8a5.png" alt="0000052.png" style="width:50%" />
+<img src="https://0d077ef9e74d8.cdn.sohucs.com/qB1rjQi_png" alt="0000057.png" style="width:50%" />
+<img src="https://0d077ef9e74d8.cdn.sohucs.com/qB1rghY_png" alt="0000052.png" style="width:50%" />
 
 > 这脸打的 pia pia 的响。
 
-<img src="https://i.loli.net/2017/10/08/59d9d855d6409.png" alt="00000059.png" style="width:50%" />
+<img src="https://0d077ef9e74d8.cdn.sohucs.com/qB1rnhR_png" alt="00000059.png" style="width:50%" />
 
 对于猎鹰高振刚和酷友 twroc 在微信的对话可以在[这里](https://ooo.0o0.ooo/2017/01/26/5889fb945e96e.jpg)看。
 
 ### 对于定位 SDK 的态度
 
-<img src="https://i.loli.net/2017/10/08/59d9d855da883.png" alt="00000054.png" style="width:50%" />
+<img src="https://0d077ef9e74d8.cdn.sohucs.com/qB1rq4X_png" alt="00000054.png" style="width:50%" />
 
 > 我不置可否，不过把质疑用户称为嘴脸也真是没谁了。
 
@@ -104,13 +104,13 @@ SuperSU 和阻止运行被收购和商业化无疑是一场巨变。因为 Root 
 
 > 如果你们的阻止运行的底线是这样，那么请问还有谁放心用？
 
-<img src="https://i.loli.net/2017/10/08/59d9d855db6b1.png" alt="0000062.png" style="width:50%" />
+<img src="https://0d077ef9e74d8.cdn.sohucs.com/qB1rtlV_png" alt="0000062.png" style="width:50%" />
 
 # 补丁版黑域
 
 大概是这样的，liudongmiao 找到高振刚高总，申请开发基于 Android N 的补丁版“阻止运行”，即补丁版黑域项目。liudongmiao 表示新的项目只能用于 Android N、部分开源，并且不采用 Xposed 模式，于是高振刚同意了。后来补丁版黑域可以成功用于 Android 4.4-7.1 的任何版本，于是猎鹰网络威胁 liudongmiao 要起诉他。于是补丁版黑域被迫在酷安网下架，liudongmiao 被迫停更、去转向开发非补丁版黑域。
 
-![0000050.png](https://p0.ssl.qhmsg.com/t0183573cc14a98e378.jpg)
+![0000050.png](https://0d077ef9e74d8.cdn.sohucs.com/qB1rwJp_png)
 
 幸运的是猎鹰网络没有（**实际上也没有能力**）封杀补丁版黑域，所以一键黑域打补丁项目和补丁版黑域依然可以继续使用。为了避免纠纷，酷安网页版隐藏了有关的项目，大家可以使用酷安手机客户端下载使用。
 
