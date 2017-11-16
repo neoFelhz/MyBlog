@@ -90,13 +90,13 @@ SuperSU 和阻止运行被收购和商业化无疑是一场巨变。因为 Root 
 
 > 这脸打的 pia pia 的响。
 
-<img src="https://bbs-static.nfz.yecdn.com/i/00000059.png" alt="00000059.png" style="width:50%" />
+<img src="https://bbs-static.nfz.yecdn.com/i/0000059.png" alt="0000059.png" style="width:50%" />
 
 对于猎鹰高振刚和酷友 twroc 在微信的对话可以在[这里](https://ooo.0o0.ooo/2017/01/26/5889fb945e96e.jpg)看。
 
 ### 对于定位 SDK 的态度
 
-<img src="https://bbs-static.nfz.yecdn.com/i/00000054.png" alt="00000054.png" style="width:50%" />
+<img src="https://bbs-static.nfz.yecdn.com/i/0000054.png" alt="0000054.png" style="width:50%" />
 
 > 我不置可否，不过把质疑用户称为嘴脸也真是没谁了。
 
