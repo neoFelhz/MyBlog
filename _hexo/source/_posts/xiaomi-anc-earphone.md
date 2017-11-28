@@ -11,8 +11,8 @@ updated: 2017-9-10 18:16:00
 thumbnail: https://s.nfz.yecdn.com/img/thumbnails/xiaomi-anc-earphone.jpg!blogth
 ---
 
-<script src="https://cdnjs.cat.net/ajax/libs/aplayer/1.6.0/APlayer.min.js"></script>
-<script src="https://api.i-meto.com/music/aplayer.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/aplayer@1.6.0/dist/APlayer.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/meting@1.0.1/dist/Meting.min.js"></script>
 
 在同学的安利之下，我剁手了一副小米降噪耳机 Type-C 版。
 
