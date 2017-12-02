@@ -301,7 +301,7 @@ vendors:
 #   The new src will have the base domain you configured below.
 #   For example
 #       materialcdn: https://cdn.jsdelivr.net/npm/hexo-material@1.4.0/source
-    materialcdn: https://s.nfz.yecdn.com
+    materialcdn: https://cdn.jsdelivr.net/npm/hexo-material@1.5.0/source
 
 # Third party library
 #   You can load these files from public cdn.
