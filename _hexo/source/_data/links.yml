@@ -48,11 +48,6 @@ Ephen:
     avatar: https://bbs-static.nfz.yecdn.com/links/ephen.me.jpg
     descr: "CloudXNS 的看板娘~"
 
-kn007 的个人博客:
-    link: https://kn007.net
-    avatar: https://bbs-static.nfz.yecdn.com/links/kn007.net.jpg
-    descr: "kn007 的个人博客"
-
 Troy's Blog:
     link: https://itroy.cc
     avatar: https://bbs-static.nfz.yecdn.com/links/itroy.cc.png
@@ -82,6 +77,11 @@ Omico's Blog:
     link: https://www.mokeyjay.com
     avatar: https://bbs-static.nfz.yecdn.com/links/www.mokeyjay.com.jpg
     descr: 技术与分享 | PHP与ACG
+    
+kn007 的个人博客:
+    link: https://kn007.net
+    avatar: https://bbs-static.nfz.yecdn.com/links/kn007.net.jpg
+    descr: "kn007 的个人博客"
     
 DCC 的小窝:
     link: https://dcc.cat
@@ -113,15 +113,15 @@ Solomon:
     avatar: https://bbs-static.nfz.yecdn.com/links/imiku.me.png
     descr: "聆听最初的声音 向往无尽的未来"
 
+Elepover:
+    link: https://blog.elepover.com
+    avatar: https://bbs-static.nfz.yecdn.com/links/elepover.com.jpg
+    descr: ".NET / Arch / 日常"
+
 Netrvin:
     link: https://131.re
     avatar: https://bbs-static.nfz.yecdn.com/links/131.re.jpg
     descr: "一个总喜欢瞎折腾的 00 后"
-
-iVanilla Studio:
-    link: https://ivanilla.org
-    avatar: https://bbs-static.nfz.yecdn.com/links/ivanilla.org.png
-    descr: "Stay hungry. Stay foolish."
 
 1A23 Studio:
     link: https://1a23.com
@@ -157,6 +157,11 @@ Mysaku:
     link: https://mysaku.pw
     avatar: https://bbs-static.nfz.yecdn.com/links/mysaku.pw.png
     descr: "人呐什么都不知道 自己就不可以预料"
+
+kn007 的个人博客:
+    link: https://kn007.net
+    avatar: https://bbs-static.nfz.yecdn.com/links/kn007.net.jpg
+    descr: "kn007 的个人博客"
 
 1111Lab:
     link: https://1111Lab.org
