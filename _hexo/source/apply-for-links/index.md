@@ -30,7 +30,7 @@ description: 来和 neoFelhz 签订契约吧~
 
 ----
 
-满足上述规则的，请在评论里留下你的友链信息：
+满足上述规则的，请在评论里留下您的友链信息：
 
 > 请务必按照格式。
 
@@ -38,8 +38,8 @@ description: 来和 neoFelhz 签订契约吧~
 - Link: https://nfz.moe https://blog.nfz.moe
 - Slogan: 有些人拾穗生计所迫，有些人因为艺术，有些人仅因为喜欢拾穗。
 - Description: 拾穗者的故事
-- Avatar: https://i.v2ex.co/Q4661K0b.png
-- Favicon: https//i.v2ex.co/U326QjN0.png
+- Avatar: [https://i.v2ex.co/Q4661K0b.png](https://i.v2ex.co/Q4661K0b.png)
+- Favicon: [https//i.v2ex.co/U326QjN0.png](https//i.v2ex.co/U326QjN0.png)
 - ~~申请将友链放在个人主页~~
 
 > Slogan 非必需；Description 尽量简短。
@@ -50,3 +50,4 @@ description: 来和 neoFelhz 签订契约吧~
 ----
 
 本人保证每月都会对所有的友链站点进行回访，对友链站点有更新的页面会留下脚印。
+对于内容含金量的博客，我会将其 RSS 加入 [我的伙伴星球](https://planet.nfz.moe) 的订阅列表。请注意，建立伙伴星球的目的是仅供本人订阅、并无益于您的 SEO 或者你的 PV UV。
