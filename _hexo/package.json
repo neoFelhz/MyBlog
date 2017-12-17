@@ -11,7 +11,7 @@
     "build": "hexo clean && hexo g && gulp"
   },
   "hexo": {
-    "version": "3.4.0"
+    "version": "3.4.3"
   },
   "dependencies": {
     "hexo": "^3.4.2",
