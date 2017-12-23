@@ -1,5 +1,5 @@
 ---
-title: Goodbye,2016
+title: Goodbye 2016
 categories:
   - 自言语
 date: 2016-12-31 21:32:18

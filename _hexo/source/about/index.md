@@ -82,6 +82,9 @@ description: neo喵和他的博客的故事
 > 渐渐发现独立思考需要文字来记录自己的见解。
 > 写点技术、偶尔吐吐槽也好，文艺一把也罢。
 
-## 支持本站
+## 博客存活时间
 
-坚持写有用的、原创的技术文章并不是一件容易的事。如果你认为我的文章对你有帮助，欢迎将本站推荐给你的小伙伴！
+<script>function secondToDate(second){if(!second){return 0}var time=new Array(0,0,0,0,0);if(second>=365*24*3600){time[0]=parseInt(second/(365*24*3600));second%=365*24*3600}if(second>=24*3600){time[1]=parseInt(second/(24*3600));second%=24*3600}if(second>=3600){time[2]=parseInt(second/3600);second%=3600}if(second>=60){time[3]=parseInt(second/60);second%=60}if(second>0){time[4]=second}return time};function setTime(){var create_time=Math.round(new Date(Date.UTC(2016,08,15,20,14,19)).getTime()/1000);var timestamp=Math.round((new Date().getTime()+8*60*60*1000)/1000);currentTime=secondToDate((timestamp-create_time));currentTimeHtml=currentTime[0]+'年'+currentTime[1]+'天'+currentTime[2]+'时'+currentTime[3]+'分'+currentTime[4]+'秒';document.getElementById("htmer_time").innerHTML=currentTimeHtml}setInterval(setTime,1000);</script>
+
+本站已运行 **<span class="sidebar-badge" id="htmer_time"></span>**
+
