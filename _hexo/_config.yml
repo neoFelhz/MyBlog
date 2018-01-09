@@ -74,13 +74,6 @@ theme: material
 search:
     path: search.xml
     field: all
-
-# RSS
-feed:
-    type: atom
-    path: atom.xml
-    limit: 40
-    hub:
     
 # Sitemap
 sitemap:

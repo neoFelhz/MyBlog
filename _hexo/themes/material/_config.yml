@@ -18,7 +18,7 @@ head:
 
 # Jump Links Settings
 url:
-    rss: "//blog.nfz.moe/atom.xml"
+    rss:
     daily_pic: ""
     logo: "//nfz.moe"
 
