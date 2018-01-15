@@ -36,7 +36,7 @@ GitLab 有面向企业的计划、有开发独立的服务端程序，所以和�
 在 `.gitlab-ci.yml` 中填入下述内容：
 
 ```yaml
-image: neoFelhz/hexo-docker
+image: neofelhz/hexo-docker
 build:
   cache:
     paths:
