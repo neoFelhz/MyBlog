@@ -18,9 +18,6 @@ description: neo喵和他的博客的故事
 
 > 如果你叫我 neo 喵，我会回应一声 “喵呜(๑´ω`๑)～”
 
-我给自己取 ID 的时候是努比亚手机的忠实粉。那时候，努比亚的很多产品都用 Neo 命名（比如 nubia 相机 NeoVision；nubiaUI 省电技术 NeoPower；nubia 声音渲染技术 Neosound；摄影分享软件 NeoShare . . .），所以我就给自己取了 neo 这个姓。
-`F` 表示我来自 福建，`E` 表示 `Elementery` ，`lhz` 是我的姓名首字母缩写（显而易见地）。
-
 ----
 
 不善交际，不喜欢外出。
