@@ -148,7 +148,17 @@
         <%- site.data.footer[i] %>
     <% } %>
 <% } %>
+<script>
+        var copyrightNow = new Date().getFullYear();
+        var textContent = document.querySelector('span[year]')
 
+        copyrightSince = 2017;
+        if (copyrightSince === copyrightNow) {
+            textContent.textContent = copyrightNow
+        } else {
+            textContent.textContent = copyrightSince + ' - ' + copyrightNow
+        }
+</script>
 <script>
     (function(){
         var scriptList = document.querySelectorAll('script[type="text/ls-javascript"]')
