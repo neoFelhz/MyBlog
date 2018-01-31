@@ -4,12 +4,14 @@
         <% if (theme.license || page.license) { %>
                 <blockquote style="margin: 2em 0 0;padding: 0.5em 1em;border-left: 3px solid #F44336;background-color: #F5F5F5;list-style: none;">
                     <p><strong>
-                        <% if (page.license) { %>
+                        <% if(page.license === false) { %>
+                        <% } else if(page.license) { %>
                             <%- page.license %>
-                        <% } else { %> 
+                            <br>
+                        <% } else { %>
                             <%- theme.license %>
+                            <br>
                         <% } %></strong>
-                        <br>
                         <strong><%- __('post.permalink') %></strong><a href="<%= page.permalink %>"><%= page.permalink %></a>
                     </p>
                 </blockquote>
