@@ -10,7 +10,7 @@ categories:
 date: 2017-04-23 16:25:00
 updated: 2017-08-12 1:07:00
 toc: false
-thumbnail: https://s.nfz.yecdn.com/img/thumbnails/optimization-of-my-blog.png
+thumbnail: https://s.nfz.yecdn.com/img/thumbnails/optimization-of-my-blog.png!blogth
 ---
 
 ![0000087.png](https://bbs-static.nfz.yecdn.com/i/0000087.png)
