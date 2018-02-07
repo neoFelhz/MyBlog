@@ -1,35 +1,11 @@
 User-agent: Baiduspider
-Allow: /
-Allow: /archives/
-Allow: /categories/
-Allow: /page/
-Allow: /tags/
-Disallow: /js/
-Disallow: /css/
-Disallow: /fonts/
-Disallow: /img/
+Disallow: /
 
 User-agent: Sosospider
-Allow: /
-Allow: /archives/
-Allow: /categories/
-Allow: /page/
-Allow: /tags/
-Disallow: /js/
-Disallow: /css/
-Disallow: /fonts/
-Disallow: /img/
+Disallow: /
 
 User-agent: sogou spider
-Allow: /
-Allow: /archives/
-Allow: /categories/
-Allow: /page/
-Allow: /tags/
-Disallow: /js/
-Disallow: /css/
-Disallow: /fonts/
-Disallow: /img/
+Disallow: /
 
 User-agent: YodaoBot
 Allow: /
@@ -65,15 +41,7 @@ Disallow: /css/
 Disallow: /fonts/
 
 User-agent: Slurp
-Allow: /
-Allow: /archives/
-Allow: /categories/
-Allow: /page/
-Allow: /tags/
-Disallow: /js/
-Disallow: /css/
-Disallow: /fonts/
-Disallow: /img/
+Disallow: /
 
 User-agent: MSNBot
 Allow: /
