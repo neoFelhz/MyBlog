@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="sitemap.xsl"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://blog.nfz.moe</loc>
+        <changefreq>daily</changefreq>
+        <priority>1</priority>
+    </url>
+
+    <url>
+        <loc>https://blog.nfz.moe/archives/haidian-xicheng-chinese-paper.html</loc>
+        <lastmod>2018-01-30T05:10:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.nfz.moe/archives/public-static-cdn-service.html</loc>
+        <lastmod>2017-11-20T02:54:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.nfz.moe/archives/chrome-binary-download.html</loc>
+        <lastmod>2017-11-12T08:48:17.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.nfz.moe/archives/network-in-china.html</loc>
+        <lastmod>2017-11-03T10:17:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.nfz.moe/archives/the-prosperous-china-as-you-wish.html</loc>
+        <lastmod>2017-10-16T03:29:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.nfz.moe/archives/compare-vps-ecs-vh.html</loc>
+        <lastmod>2017-10-08T07:35:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.nfz.moe/archives/how-to-write-beautiful-github-readme.html</loc>
+        <lastmod>2017-10-02T06:07:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.nfz.moe/archives/switch-f2fs-file-system-for-android.html</loc>
+        <lastmod>2017-10-01T14:03:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.nfz.moe/archives/wpo-web-font-performance.html</loc>
+        <lastmod>2017-09-17T09:48:18.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.nfz.moe/archives/xiaomi-anc-earphone.html</loc>
+        <lastmod>2017-09-10T10:16:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.nfz.moe/archives/use-hexo-at-any-time-any-place.html</loc>
+        <lastmod>2017-09-01T04:53:27.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.nfz.moe/archives/wpo-by-prefetch.html</loc>
+        <lastmod>2017-09-01T04:48:18.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.nfz.moe/archives/wpo-by-service-worker.html</loc>
+        <lastmod>2017-09-01T04:48:17.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.nfz.moe/archives/wpo-preload-serverpush.html</loc>
+        <lastmod>2017-08-31T17:10:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.nfz.moe/archives/sw-toolbox-practice.html</loc>
+        <lastmod>2017-08-30T10:06:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.nfz.moe/archives/enable-hsts.html</loc>
+        <lastmod>2017-08-25T07:36:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.nfz.moe/archives/forcestopgb-lieying-brevent.html</loc>
+        <lastmod>2017-08-25T07:20:28.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.nfz.moe/archives/hexo-auto-deploy-with-gitlab-ci.html</loc>
+        <lastmod>2017-08-25T07:08:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.nfz.moe/archives/hexo-auto-deploy-with-travis-ci.html</loc>
+        <lastmod>2017-08-20T04:51:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.nfz.moe/archives/collection-of-image-hosting.html</loc>
+        <lastmod>2017-08-16T04:19:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.nfz.moe/archives/android-captive-portal.html</loc>
+        <lastmod>2017-08-15T17:06:17.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.nfz.moe/archives/open-source-in-china.html</loc>
+        <lastmod>2017-08-14T04:54:16.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.nfz.moe/archives/optimization-of-my-blog.html</loc>
+        <lastmod>2017-08-11T17:07:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.nfz.moe/archives/delasaka-paranoia-api.html</loc>
+        <lastmod>2017-08-03T08:24:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.nfz.moe/archives/pwa-support-for-my-blog.html</loc>
+        <lastmod>2017-07-07T15:10:27.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.nfz.moe/archives/2016-blog-analytics.html</loc>
+        <lastmod>2017-07-03T07:25:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.nfz.moe/archives/the-silence-city.html</loc>
+        <lastmod>2017-06-25T08:08:08.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.nfz.moe/archives/google-analytics-optimize.html</loc>
+        <lastmod>2017-06-18T05:28:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.nfz.moe/archives/my-view-of-freedom.html</loc>
+        <lastmod>2017-06-07T17:28:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.nfz.moe/archives/hexokit-intro.html</loc>
+        <lastmod>2017-06-06T10:37:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.nfz.moe/archives/my-view-of-green-android.html</loc>
+        <lastmod>2017-05-28T12:40:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.nfz.moe/archives/after-the-acquisition-of-supersu-by-ccmt.html</loc>
+        <lastmod>2017-05-26T15:16:21.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.nfz.moe/archives/meizu-qrcode-screenshot.html</loc>
+        <lastmod>2017-05-16T13:30:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.nfz.moe/archives/wpo-localstorage-css-js.html</loc>
+        <lastmod>2017-05-10T09:27:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.nfz.moe/archives/wpo-data-uri-performance.html</loc>
+        <lastmod>2017-04-28T13:16:18.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.nfz.moe/archives/the-importance-of-using-https.html</loc>
+        <lastmod>2017-04-08T08:41:23.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.nfz.moe/archives/how-to-choose-customlized-rom-and-stock-ui.html</loc>
+        <lastmod>2017-03-29T11:54:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.nfz.moe/archives/add-comment-system-to-hexo.html</loc>
+        <lastmod>2017-03-23T13:49:10.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.nfz.moe/archives/how-to-show-disqus-comment-in-gfw.html</loc>
+        <lastmod>2017-02-21T14:35:12.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.nfz.moe/archives/how-to-manage-a-open-source-project-from-material.html</loc>
+        <lastmod>2017-02-13T11:35:12.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.nfz.moe/archives/coolapk-in-my-mind.html</loc>
+        <lastmod>2017-02-11T09:52:46.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.nfz.moe/archives/xiaomi-anc-earphone-3-5.html</loc>
+        <lastmod>2017-02-03T12:46:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.nfz.moe/archives/why-xposed-cause-unsmooth-exprience.html</loc>
+        <lastmod>2017-02-01T15:55:12.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.nfz.moe/archives/hello-disqus-and-goodbye-duoshuo.html</loc>
+        <lastmod>2017-01-26T03:18:34.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.nfz.moe/archives/lets-check-and-study-wechat-trojan.html</loc>
+        <lastmod>2017-01-23T15:47:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.nfz.moe/archives/good-bye-2017.html</loc>
+        <lastmod>2017-01-02T05:43:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.nfz.moe/archives/good-bye-2016.html</loc>
+        <lastmod>2016-12-31T13:32:18.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.nfz.moe/archives/a-fork-in-the-road-cyangenmod.html</loc>
+        <lastmod>2016-12-26T13:35:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.nfz.moe/archives/cpu-governer-interative-core-ctl.html</loc>
+        <lastmod>2016-12-23T09:10:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.nfz.moe/archives/hexo-auto-deploy-with-flow-ci.html</loc>
+        <lastmod>2016-12-01T05:40:16.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.nfz.moe/archives/hexo-auto-deploy-with-daocloud.html</loc>
+        <lastmod>2016-11-29T12:51:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.nfz.moe/archives/laikai-home.html</loc>
+        <lastmod>2016-10-02T09:20:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.nfz.moe/archives/coding-snapdragon-810-down.html</loc>
+        <lastmod>2016-08-30T09:19:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+</urlset>
+<!-- XML Sitemap generated by Hexo SEO Friendly Sitemap Generator -->

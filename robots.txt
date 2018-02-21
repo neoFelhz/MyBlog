@@ -1,0 +1,101 @@
+User-agent: Baiduspider
+Disallow: /
+
+User-agent: Sosospider
+Disallow: /
+
+User-agent: sogou spider
+Disallow: /
+
+User-agent: YodaoBot
+Allow: /
+Allow: /archives/
+Allow: /categories/
+Allow: /page/
+Allow: /tags/
+Disallow: /js/
+Disallow: /css/
+Disallow: /fonts/
+Disallow: /img/
+
+User-agent: Googlebot
+Allow: /
+Allow: /archives/
+Allow: /categories/
+Allow: /page/
+Allow: /tags/
+Allow: /img/
+Disallow: /js/
+Disallow: /css/
+Disallow: /fonts/
+
+User-agent: Bingbot
+Allow: /
+Allow: /archives/
+Allow: /categories/
+Allow: /page/
+Allow: /tags/
+Allow: /img/
+Disallow: /js/
+Disallow: /css/
+Disallow: /fonts/
+
+User-agent: Slurp
+Disallow: /
+
+User-agent: MSNBot
+Allow: /
+Allow: /archives/
+Allow: /categories/
+Allow: /page/
+Allow: /tags/
+Disallow: /js/
+Disallow: /css/
+Disallow: /fonts/
+Allow: /img/
+
+User-agent: googlebot-image
+Allow: /
+Allow: /archives/
+Allow: /categories/
+Allow: /page/
+Allow: /tags/
+Disallow: /js/
+Disallow: /css/
+Disallow: /fonts/
+Disallow: /img/
+
+User-agent: googlebot-mobile
+Allow: /
+Allow: /archives/
+Allow: /categories/
+Allow: /page/
+Allow: /tags/
+Allow: /img/
+Disallow: /js/
+Disallow: /css/
+Disallow: /fonts/
+
+User-agent: yahoo-blogs/v3.9
+Allow: /
+Allow: /archives/
+Allow: /categories/
+Allow: /page/
+Allow: /tags/
+Disallow: /js/
+Disallow: /css/
+Disallow: /fonts/
+Disallow: /img/
+
+User-agent: psbot
+Allow: /
+Allow: /archives/
+Allow: /categories/
+Allow: /page/
+Allow: /tags/
+Disallow: /js/
+Disallow: /css/
+Disallow: /fonts/
+Disallow: /img/
+
+Sitemap: https://blog.nfz.moe/sitemap.xml

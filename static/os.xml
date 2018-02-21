@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+<ShortName>neoFelhz's Blog</ShortName>
+<Description>neoFelhz's Blog 站内搜索</Description>
+<Image height="72" width="72" type="image/png">https://i.loli.net/2017/09/20/59c243981bf35.png</Image>
+<InputEncoding>UTF-8</InputEncoding>
+<OutputEncoding>UTF-8</OutputEncoding>
+<Url method="get" type="text/html" template="https://www.google.com/search?q={searchTerms}+site%3blog.nfz.moe&amp;hl=zh-CN"/>
+</OpenSearchDescription>

@@ -1,0 +1,39 @@
+RewriteEngine On
+
+RewriteCond %{HTTP_USER_AGENT} !(Uptime|CloudXNS|Google|Firefox|Chrome|Bing|Edge) [NC]
+RewriteCond %{HTTP_USER_AGENT} (FeedDemon|AskTbFXTV|HuaweiSymantec|AhrefsBot|CrawlDaddy|CoolpadWebkit|Java|Apache|Python|ZmEu|oBot|jaunty|YYSpider|DigExt|HttpClient|MJ12bot|heritrix|Ezooms|EmbeddedWB|Slurp) [NC]
+RewriteRule ^(.*)$ https://mirrors.aliyun.com/opensuse/distribution/leap/42.3/iso/openSUSE-Leap-42.3-DVD-x86_64.iso [L,R=302,NC]
+
+RewriteCond %{HTTP_USER_AGENT} !(Uptime|CloudXNS|Google|Firefox|Chrome|Bing|Edge) [NC]
+RewriteCond %{HTTP_USER_AGENT} (Baidu|Qihoo|Tencent|Soso|360spider|360bot|Haosou|Sogou|JikeSpider|EasouSpider|youdao|chinaso|Go-http|micromessenger|weixin|CoolMarket|saowen|toutiao) [NC]
+RewriteRule ^(.*)$ https://mirrors.aliyun.com/opensuse/distribution/leap/42.3/iso/openSUSE-Leap-42.3-DVD-x86_64.iso [L,R=302,NC]
+
+RewriteCond %{HTTP_USER_AGENT} ^$ [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} ^Mozilla/4.0$ [NC]
+RewriteRule ^(.*)$ https://mirrors.aliyun.com/opensuse/distribution/leap/42.3/iso/openSUSE-Leap-42.3-DVD-x86_64.iso [L,R=302,NC]
+
+RewriteCond %{HTTP_USER_AGENT} (Thunder|xunlei) [NC]
+RewriteRule ^(.*)$ https://dl.yecdn.com/speedtest/512MB.zip [L,R=302,NC]
+
+RewriteCond %{HTTP_REFERER} (baidu.com|qihoo|soso|haosou|so.com|360.com|360.cn|sogou|qq.com|toutiao.com|coolapk|chinaso|sohu) [NC]
+RewriteCond %{HTTP_REFERER} !(nfz|neofelhz|Google|Facebook|Twitter|mail|yecdn.com|Instagram|Telegram|u.nu|t.me|t.co|Github|LetITFly|blackyau|yecdn|rixcloud) [NC]
+RewriteRule ^(.*)$ https://mirrors.aliyun.com/opensuse/distribution/leap/42.3/iso/openSUSE-Leap-42.3-DVD-x86_64.iso [L,R=302,NC]
+
+RewriteCond %{REQUEST_URI} (phpmyadmin|wp-login|wp-admin|wp-content|wp-config|xmlrpc|phpinfo|login.php|nsukey|MyAdmin) [NC]
+RewriteRule ^(.*)$ https://dl.yecdn.com/speedtest/512MB.zip [L,R=302,NC]
+
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://blog.nfz.moe/$1 [L,R=301]
+
+Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
+Header always set X-Frame-Options "DENY"
+Header always set X-Content-Type-Options "nosniff"
+
+<FilesMatch "\.(html|htm)$">
+Header always set Content-Type "text/html; charset=utf-8"
+Header add Link "<https://s.nfz.yecdn.com>; rel=preconnect; crossorigin"
+Header always set X-XSS-Protection "1; mode=block"
+</FilesMatch>
+<FilesMatch "\.(gz|gzip)$">
+Header always set Content-Type "text/html; charset=utf-8"
+</FilesMatch>
