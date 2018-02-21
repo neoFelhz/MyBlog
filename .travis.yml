@@ -6,7 +6,7 @@ install:
   - cd _hexo
   - npm install
   - cd themes
-  - cd spectre
+  - cd hexo-theme-spectre
   - npm install
   - cd ..
   - cd ..
