@@ -70,11 +70,18 @@ include:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: material
+theme: hexo-theme-spectre
 
 search:
-    path: search.xml
-    field: all
+    path: search.json
+    field: post
+
+# RSS
+feed:
+    type: atom
+    path: atom.xml
+    limit: 100
+    hub:
     
 # Sitemap
 sitemap:

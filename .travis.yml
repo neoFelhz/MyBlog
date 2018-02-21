@@ -5,6 +5,11 @@ node_js:
 install:
   - cd _hexo
   - npm install
+  - cd themes
+  - cd spectre
+  - npm install
+  - cd ..
+  - cd ..
 script:
   - \cp -f ../_patch/index.js node_modules/hexo-prism-plugin/src/index.js
   - chmod +x ../deploy.sh

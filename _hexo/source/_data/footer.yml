@@ -1,2 +1,0 @@
-ServiceWorker:
-  <script>lsloader.load("sw_js","https://s.nfz.yecdn.com/static/js/sw-reg.js", true)</script>
