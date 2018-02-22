@@ -26,13 +26,6 @@
         }
     });
     self.toolbox.router.get("/(.*)", self.toolbox.cacheFirst, {
-        origin: /p0\.ssl\.qhmsg\.com/,
-        cache: {
-            name: staticImageCacheName,
-            maxEntries: maxEntries
-        }
-    });
-    self.toolbox.router.get("/(.*)", self.toolbox.cacheFirst, {
         origin: /img1\.nfz\.yecdn\.com/,
         cache: {
             name: staticImageCacheName,
@@ -48,6 +41,13 @@
     });
     self.toolbox.router.get("/(.*)", self.toolbox.cacheFirst, {
         origin: /i\.nfz\.yecdn\.com/,
+        cache: {
+            name: staticImageCacheName,
+            maxEntries: maxEntries
+        }
+    });
+    self.toolbox.router.get("/img/(.*)", self.toolbox.cacheFirst, {
+        origin: /s\.nfz\.yecdn\.com/,
         cache: {
             name: staticImageCacheName,
             maxEntries: maxEntries
@@ -71,6 +71,13 @@
     /* StaticAssetsCache */
     self.toolbox.router.get("/css/(.*)", self.toolbox.networkFirst, {
         origin: /blog\.nfz\.yecdn\.com/,
+    });
+    self.toolbox.router.get("/(.*)", self.toolbox.cacheFirst, {
+        origin: /cdn\.jsdelivr\.net/,
+        cache: {
+            name: staticImageCacheName,
+            maxEntries: maxEntries
+        }
     });
     self.toolbox.router.get("/js/(.*)", self.toolbox.networkFirst, {
         origin: /blog\.nfz\.yecdn\.com/,
@@ -104,7 +111,7 @@
             maxEntries: maxEntries
         }
     });
-    self.toolbox.router.get("/(tags|about|gallery|archives|links|timeline)(.*)", self.toolbox.networkFirst, {
+    self.toolbox.router.get("/(tags|about|gallery|archives|links|timeline|apply-for|history)(.*)", self.toolbox.networkFirst, {
         cache: {
             name: contentCacheName,
             maxEntries: maxEntries
@@ -171,25 +178,28 @@
             maxEntries: maxEntries
         }
     });
-    self.toolbox.router.get("/(.*)", self.toolbox.networkOnly, {
-        origin: /(www\.google-analytics\.com|ssl\.google-analytics\.com)/,
-        cache: {
-            name: vendorCacheName,
-            maxEntries: maxEntries
-        }
-    });
 
     /* NoCache */
     self.toolbox.router.get("/sw.js", self.toolbox.networkFirst),
     self.toolbox.router.get("/(.*).php(.*)", self.toolbox.networkOnly),
-	self.toolbox.router.get("/(.*)", self.toolbox.networkOnly, {
+    self.toolbox.router.get("/(.*)", self.toolbox.networkOnly, {
         origin: /ga\.fir\.im/,
+    });
+    self.toolbox.router.get("/(.*)", self.toolbox.networkOnly, {
+        origin: /ga\.guiem\.com/,
     });
     self.toolbox.router.get("/(.*)", self.toolbox.networkOnly, {
         origin: /ga\.yecdn\.com/,
     });
     self.toolbox.router.get("/(.*)", self.toolbox.networkOnly, {
         origin: /api\.nfz\.moe/,
+    });
+    self.toolbox.router.get("/(.*)", self.toolbox.networkOnly, {
+        origin: /(www\.google-analytics\.com|ssl\.google-analytics\.com)/,
+        cache: {
+            name: vendorCacheName,
+            maxEntries: maxEntries
+        }
     });
 
     self.addEventListener("install",
